@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cksamrzrz0ru417tem77n1d9t',
+    style: 'mapbox://styles/daltonwb/cksapuxku1c1w17qeh2myde1k',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -280,14 +280,14 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                  layer: 'acled_2017',
+                  layer: 'acled-2017',
                   duration: 3000,
                   opacity: 0.4
               },
             ],
             onChapterExit: [
               {
-                  layer: 'acled_2017',
+                  layer: 'acled-2017',
                   duration: 3000,
                   opacity: 0
               },
@@ -301,10 +301,10 @@ var config = {
             image: '',
             description: '<ul><li><strong>Hazard</strong>: Increased temperatures and seasonal variability</li><li><strong>Impact</strong>:Rise in resource-related farmer-herder violence</li><li><strong>Our Insight</strong>: Assessing the climatic and political risks associated with the implementation of Nigeria’s National Livestock Transformation Plan.</li></ul>',
             location: {
-              center: [-1.705, 17.271],
-              zoom: 5.7,
-              pitch: 43.50,
-              bearing: 0
+              center: [7.801678, 9.181589],
+              zoom: 5.5,
+              pitch: 40.40,
+              bearing: -12.89
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -334,21 +334,25 @@ var config = {
             location: {
               center: [35.0912717, 11.2153265],
               zoom: 14,
-              pitch: 43.50,
+              pitch: 60,
               bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-              {
-
-              },
+                {
+                  layer: 'mapbox-satellite',
+                  duration: 1000,
+                  opacity: 1
+                }
             ],
             onChapterExit: [
-              {
-
-              },
+                {
+                  layer: 'mapbox-satellite',
+                  duration: 1000,
+                  opacity: 0
+                }
             ]
         },
         {
@@ -359,10 +363,10 @@ var config = {
             image: '',
             description: '<ul><li><strong>Hazard</strong>: Droughts</li><li><strong>Impact</strong>:Increased resource competition aggravates ethnic tensions and contributes to violence around elections</li><li><strong>Our Insight</strong>: Assessing how politics and climatic hazards can potentially reignite historical grievances and intergroup conflict leading up to the 2022 elections</li></ul>',
             location: {
-              center: [35.0912717, 11.2153265],
-              zoom: 14,
-              pitch: 43.50,
-              bearing: 0
+              center: [37.886659, -0.160837],
+              zoom: 5.8,
+              pitch: 46.50,
+              bearing: -20.80
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
