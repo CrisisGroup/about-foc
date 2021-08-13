@@ -25,11 +25,12 @@
 						margin:0;
 						padding:0;
 						font-family: 'PT Serif', serif;
+						overflow-x: hidden;
 				}
 				p {
 					font-size: 19px;
 					line-height: 1.4286;
-					color: #000;
+					color: #FFF;
 				}
 				a, a:hover, a:visited {
 						color: #0071bc;
@@ -59,7 +60,7 @@
 					font-family: 'Libre Franklin', sans-serif;
 					font-size: 21px;
 					letter-spacing: 1px;
-					color: #000;
+					color: #FFF;
 				}
 				h4 {
 					font-family: 'Libre Franklin', sans-serif;
@@ -103,7 +104,7 @@
 				}
 				.light {
 						color: #444;
-						background-color: #fafafa;
+						background-color: none;
 				}
 				.dark {
 						color: #fafafa;
@@ -164,6 +165,33 @@
 						position: fixed;
 				}
 
+				/* Legend CSS */
+
+				.legend {
+						position: fixed;
+						right: 30px;
+						bottom: 30px;
+						color: #444;
+						background-color: #fafafa;
+						box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+						font-size: x-small !important;
+						padding: 10px;
+						display:none;
+						z-index: 1;
+				}
+
+				.legend h4 {
+						margin: 0 0 10px;
+				}
+
+				.legend div span {
+						border-radius: 50%;
+						display: inline-block;
+						height: 10px;
+						width: 10px;
+						margin-right: 5px;
+				}
+
 				/* Fix issue on mobile browser where scroll breaks  */
 				.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
 				.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
@@ -192,6 +220,14 @@
 	</div>
 
 	<div id="map"></div>
+
+	<!--<div id='ch1' class='legend'>
+			<h4>Rainfall by cm</h4>
+				<div><span style='background-color: #ffbb7a'></span>COVID</div>
+				<div><span style='background-color: #093746'></span>BLM</div>
+				<div><span style='background-color: #5f9ed1'></span>Other</div>
+			</div>
+	</div>-->
 
 	<div id="story"></div>
 
