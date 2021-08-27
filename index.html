@@ -221,19 +221,14 @@
 
 	<div id="map"></div>
 
-	<!--<div id='ch1' class='legend'>
-			<h4>Rainfall by cm</h4>
-				<div><span style='background-color: #ffbb7a'></span>COVID</div>
-				<div><span style='background-color: #093746'></span>BLM</div>
-				<div><span style='background-color: #5f9ed1'></span>Other</div>
-			</div>
-	</div>-->
-
 	<div id="story"></div>
 
 <script src="./config.js"></script>
 
 <script>
+
+function testmath() { return (5 * 19); }
+
 var layerTypes = {
 		'fill': ['fill-opacity'],
 		'line': ['line-opacity'],
@@ -255,6 +250,12 @@ function getLayerPaintType(layer) {
 		var layerType = map.getLayer(layer).type;
 		return layerTypes[layerType];
 }
+
+// TEST CALLBACK FUNC
+function func() { return (5 * 19); }
+console.log(func());
+
+// USE FOR LEGEND CALL ^^^
 
 function setLayerOpacity(layer) {
 		var paintProps = getLayerPaintType(layer.layer);

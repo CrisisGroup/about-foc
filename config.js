@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cksapuxku1c1w17qeh2myde1k',
+    style: 'mapbox://styles/daltonwb/cksupl9ho5e5c17n00sonpova',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -25,8 +25,7 @@ var config = {
             },
             mapAnimation: 'easeTo',
             rotateAnimation: true,
-            callback: 'function greet(name) {console.log('Hi' + ' ' + name);
-greet('Peter'); // Hi Peter',
+            callback: 'func',
             onChapterEnter: [
               {
                 layer: 'mapbox-satellite',
@@ -56,7 +55,7 @@ greet('Peter'); // Hi Peter',
             description: 'The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods. ',
             location: {
               center: [19.133761, 26.268723],
-              zoom: 1.2,
+              zoom: 1.85,
               pitch: 0,
               bearing: 0
             },
@@ -87,7 +86,7 @@ greet('Peter'); // Hi Peter',
             description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with droughts and extreme heat.',
             location: {
               center: [19.133761, 26.268723],
-              zoom: 1.2,
+              zoom: 1.85,
               pitch: 0,
               bearing: 0
             },
@@ -118,7 +117,7 @@ greet('Peter'); // Hi Peter',
             description: 'On the contrary, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.',
             location: {
               center: [19.133761, 26.268723],
-              zoom: 1.2,
+              zoom: 1.85,
               pitch: 0,
               bearing: 0
             },
@@ -149,7 +148,7 @@ greet('Peter'); // Hi Peter',
             description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Climate volatility can induce livelihood insecurity, which frequently is key element of climate-related insecurity issues.',
             location: {
               center: [19.133761, 26.268723],
-              zoom: 1.2,
+              zoom: 1.85,
               pitch: 0,
               bearing: 0
             },
@@ -180,7 +179,7 @@ greet('Peter'); // Hi Peter',
             description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.',
             location: {
               center: [19.133761, 26.268723],
-              zoom: 1.2,
+              zoom: 1.85,
               pitch: 0,
               bearing: 0
             },
@@ -211,7 +210,7 @@ greet('Peter'); // Hi Peter',
             description: 'Climatic distress presents security risks in the Horn of Africa, Sahel, South East Asia, Central America, Middle East and North Africa. We focus on the relationship between climatic shocks, resource competition, displacement and transboundary water disputes.',
             location: {
               center: [19.133761, 26.268723],
-              zoom: 1.2,
+              zoom: 1.85,
               pitch: 0,
               bearing: 0
             },
@@ -285,6 +284,10 @@ greet('Peter'); // Hi Peter',
                   duration: 3000,
                   opacity: 0.4
               },
+              {   layer: 'mapbox-satellite',
+                  duration: 3000,
+                  opacity: 0
+              }
             ],
             onChapterExit: [
               {
@@ -315,6 +318,10 @@ greet('Peter'); // Hi Peter',
                     layer: 'nigeria',
                     duration: 3000,
                     opacity: 1
+                },
+                {   layer: 'mapbox-satellite',
+                    duration: 3000,
+                    opacity: 1
                 }
             ],
             onChapterExit: [
@@ -342,18 +349,10 @@ greet('Peter'); // Hi Peter',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-                {
-                  layer: 'mapbox-satellite',
-                  duration: 1000,
-                  opacity: 1
-                }
+
             ],
             onChapterExit: [
-                {
-                  layer: 'mapbox-satellite',
-                  duration: 1000,
-                  opacity: 0
-                }
+
             ]
         },
         {
@@ -411,11 +410,44 @@ greet('Peter'); // Hi Peter',
               }
             ],
             onChapterExit: [
+
+            ]
+        },
+        {
+            id: '10',
+            alignment: 'left',
+            hidden: false,
+            title: 'Grand Conclusion!',
+            image: '',
+            description: 'How do we communicate climate change effectively?',
+            location: {
+              center: [17.875932, 1.673705],
+              zoom: 3.71,
+              pitch: 33,
+              bearing: 0
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
               {
-                  layer: 'south-sudan',
+                  layer: 'kenya',
                   duration: 3000,
-                  opacity: 0
+                  opacity: 1
+              },
+              {
+                  layer: 'nigeria',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
+                  layer: 'white_nile',
+                  duration: 3000,
+                  opacity: 1
               }
+            ],
+            onChapterExit: [
+
             ]
         }
     ]
