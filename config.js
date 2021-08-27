@@ -25,7 +25,8 @@ var config = {
             },
             mapAnimation: 'easeTo',
             rotateAnimation: true,
-            callback: '',
+            callback: 'function greet(name) {console.log('Hi' + ' ' + name);
+greet('Peter'); // Hi Peter',
             onChapterEnter: [
               {
                 layer: 'mapbox-satellite',
@@ -54,8 +55,8 @@ var config = {
             image: '',
             description: 'The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods. ',
             location: {
-              center: [0, 0],
-              zoom: 1,
+              center: [19.133761, 26.268723],
+              zoom: 1.2,
               pitch: 0,
               bearing: 0
             },
@@ -85,8 +86,8 @@ var config = {
             image: '',
             description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with droughts and extreme heat.',
             location: {
-              center: [0, 0],
-              zoom: 1,
+              center: [19.133761, 26.268723],
+              zoom: 1.2,
               pitch: 0,
               bearing: 0
             },
@@ -116,8 +117,8 @@ var config = {
             image: '',
             description: 'On the contrary, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.',
             location: {
-              center: [0, 0],
-              zoom: 1,
+              center: [19.133761, 26.268723],
+              zoom: 1.2,
               pitch: 0,
               bearing: 0
             },
@@ -147,8 +148,8 @@ var config = {
             image: '',
             description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Climate volatility can induce livelihood insecurity, which frequently is key element of climate-related insecurity issues.',
             location: {
-              center: [0, 0],
-              zoom: 1,
+              center: [19.133761, 26.268723],
+              zoom: 1.2,
               pitch: 0,
               bearing: 0
             },
@@ -178,8 +179,8 @@ var config = {
             image: '',
             description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.',
             location: {
-              center: [0, 0],
-              zoom: 1,
+              center: [19.133761, 26.268723],
+              zoom: 1.2,
               pitch: 0,
               bearing: 0
             },
@@ -209,8 +210,8 @@ var config = {
             image: '',
             description: 'Climatic distress presents security risks in the Horn of Africa, Sahel, South East Asia, Central America, Middle East and North Africa. We focus on the relationship between climatic shocks, resource competition, displacement and transboundary water disputes.',
             location: {
-              center: [0, 0],
-              zoom: 2,
+              center: [19.133761, 26.268723],
+              zoom: 1.2,
               pitch: 0,
               bearing: 0
             },
