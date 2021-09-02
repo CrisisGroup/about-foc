@@ -341,7 +341,7 @@ var config = {
             description: '<ul><li><strong>Hazard</strong>: Potential reduction in downstream water supplies</li><li><strong>Impact</strong>:Disagreement over a cohesive drought mitigation framework increases tensions between Nile Riparian States</li><li><strong>Our Insight</strong>: Drought during future filling stages and long-term water sharing on the Nile</li></ul>',
             location: {
               center: [35.0912717, 11.2153265],
-              zoom: 14,
+              zoom: 15.5,
               pitch: 60,
               bearing: 0
             },
@@ -376,6 +376,11 @@ var config = {
                     layer: 'kenya',
                     duration: 3000,
                     opacity: 1
+                },
+                {
+                    layer: 'south-sudan',
+                    duration: 3000,
+                    opacity: 0
                 }
             ],
             onChapterExit: [
@@ -407,6 +412,11 @@ var config = {
                   layer: 'south-sudan',
                   duration: 3000,
                   opacity: 1
+              },
+              {
+                  layer: 'white_nile',
+                  duration: 3000,
+                  opacity: 0
               }
             ],
             onChapterExit: [
