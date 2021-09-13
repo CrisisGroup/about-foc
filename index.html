@@ -46,14 +46,15 @@
 						width: 100%;
 						position: relative;
 						z-index: 5;
-						background: linear-gradient(0deg,rgba(13,15,17,0),#030f11 90%);
-						color: #FAFAFA;
+						background: #003E51;
+						color: #E87722;
 						letter-spacing: .1em;
+						padding: 2vh 2vw 4vh;
 				}
 				#header h1, #header h2, #header p {
 						margin: 0;
 						padding: 2vh 2vw;
-						text-align: center;
+						text-align: left;
 						font-family: 'Libre Franklin', sans-serif;
 				}
 				h3 {
@@ -152,15 +153,15 @@
 
 				.progress-container {
 						width: 100%;
-						height: 8px;
-						background: #2C387D;
+						height: 4px;
+						background: #717C7D;
 						position: fixed;
 						z-index: 9999;
 				}
 
 				.progress-bar {
-						height: 8px;
-						background: #2C587D;
+						height: 4px;
+						background: #E87722;
 						width: 0%;
 						top: 0;
 						position: fixed;
@@ -278,8 +279,8 @@ features.setAttribute('id', 'features');
 var header = document.createElement('div');
 
 if (config.title) {
-		var titleText = document.createElement('h1');
-		titleText.innerText = config.title;
+		var titleText = document.createElement('div');
+		titleText.innerHTML = config.title;
 		header.appendChild(titleText);
 }
 

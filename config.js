@@ -5,7 +5,7 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: true,
-    title: 'Global Climate Overview [something more hard-hitting!]',
+    title: '<img src="images/icg_logo.png" width="100" height="100" /><br /><br /><h1>Global Climate Overview [something more hard-hitting!]</h1>',
     subtitle: '',
     byline: '',
     footer: '<a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a><br /><br /><img src="images/icg_logo.png" width="150" height="150" />',
@@ -308,7 +308,7 @@ var config = {
             hidden: false,
             title: 'Nigeria – Livestock Herding and Farming',
             image: '',
-            description: '<ul><li><strong>Hazard</strong>: Increased temperatures and seasonal variability</li><li><strong>Impact</strong>:Rise in resource-related farmer-herder violence</li><li><strong>Our Insight</strong>: Assessing the climatic and political risks associated with the implementation of Nigeria’s National Livestock Transformation Plan.</li></ul>',
+            description: '<strong>Hazard</strong>: Increased temperatures and seasonal variability<br /><br /><strong>Impact</strong>: Rise in resource-related farmer-herder violence<br /><br /><strong>Our Insight</strong>: Assessing the climatic and political risks associated with the implementation of Nigeria’s National Livestock Transformation Plan.',
             location: {
               center: [7.801678, 9.181589],
               zoom: 5.5,
@@ -348,7 +348,7 @@ var config = {
             hidden: false,
             title: 'Grand Ethiopian Renaissance Dam',
             image: '',
-            description: '<ul><li><strong>Hazard</strong>: Potential reduction in downstream water supplies</li><li><strong>Impact</strong>:Disagreement over a cohesive drought mitigation framework increases tensions between Nile Riparian States</li><li><strong>Our Insight</strong>: Drought during future filling stages and long-term water sharing on the Nile</li></ul>',
+            description: '<strong>Hazard</strong>: Potential reduction in downstream water supplies<br /><br /><strong>Impact</strong>: Disagreement over a cohesive drought mitigation framework increases tensions between Nile Riparian States<br /><br /><strong>Our Insight</strong>: Drought during future filling stages and long-term water sharing on the Nile',
             location: {
               center: [35.0912717, 11.2153265],
               zoom: 15.5,
