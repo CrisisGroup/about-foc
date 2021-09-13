@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cksupl9ho5e5c17n00sonpova',
+    style: 'mapbox://styles/daltonwb/cktitkiq73e3617nuj5h65wib',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -67,6 +67,11 @@ var config = {
                 layer: 'sup_abs',
                 duration: 7000,
                 opacity: .9
+              },
+              {
+                layer: 'sup_change_red',
+                duration: 2000,
+                opacity: 0
               }
             ],
             onChapterExit: [
@@ -101,11 +106,6 @@ var config = {
               }
             ],
             onChapterExit: [
-              {
-                layer: 'sup_change_red',
-                duration: 2000,
-                opacity: 0
-              }
             ]
         },
         {
@@ -135,6 +135,11 @@ var config = {
               {
                 layer: 'sup_change',
                 duration: 3000,
+                opacity: 0
+              },
+              {
+                layer: 'sup_change_red',
+                duration: 2000,
                 opacity: 0
               }
             ]
@@ -319,6 +324,11 @@ var config = {
                     duration: 3000,
                     opacity: 1
                 },
+                {
+                    layer: 'country-labels',
+                    duration: 3000,
+                    opacity: 1
+                },
                 {   layer: 'mapbox-satellite',
                     duration: 3000,
                     opacity: 1
@@ -378,7 +388,7 @@ var config = {
                     opacity: 1
                 },
                 {
-                    layer: 'south-sudan',
+                    layer: 'south-sudan2',
                     duration: 3000,
                     opacity: 0
                 }
@@ -409,12 +419,17 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                  layer: 'south-sudan',
+                  layer: 'south-sudan2',
                   duration: 3000,
                   opacity: 1
               },
               {
                   layer: 'white_nile',
+                  duration: 3000,
+                  opacity: 0
+              },
+              {
+                  layer: 'main_nile',
                   duration: 3000,
                   opacity: 0
               }
@@ -431,10 +446,10 @@ var config = {
             image: '',
             description: 'How do we communicate climate change effectively?',
             location: {
-              center: [17.875932, 1.673705],
-              zoom: 3.71,
-              pitch: 33,
-              bearing: 0
+              center: [24.414762, 7.835762],
+              zoom: 4.2,
+              pitch: 48,
+              bearing: 13.15
             },
             mapAnimation: 'easeTo',
             rotateAnimation: false,
@@ -452,6 +467,11 @@ var config = {
               },
               {
                   layer: 'white_nile',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
+                  layer: 'main_nile',
                   duration: 3000,
                   opacity: 1
               }
