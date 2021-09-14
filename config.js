@@ -292,6 +292,11 @@ var config = {
               {   layer: 'mapbox-satellite',
                   duration: 3000,
                   opacity: 0
+              },
+              {
+                  layer: 'country-labels',
+                  duration: 3000,
+                  opacity: 0
               }
             ],
             onChapterExit: [
