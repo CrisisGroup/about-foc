@@ -23,7 +23,7 @@ var config = {
                 pitch: 60,
                 bearing: 20
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: 'func',
             onChapterEnter: [
@@ -59,7 +59,7 @@ var config = {
               pitch: 0,
               bearing: 0
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -128,6 +128,11 @@ var config = {
               {
                 layer: 'sup_change',
                 duration: 3000,
+                opacity: .9
+              },
+              {
+                layer: 'sup_change_red',
+                duration: 1000,
                 opacity: .9
               }
             ],
@@ -320,7 +325,7 @@ var config = {
               pitch: 40.40,
               bearing: -12.89
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -360,7 +365,7 @@ var config = {
               pitch: 60,
               bearing: 0
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
@@ -383,7 +388,7 @@ var config = {
               pitch: 46.50,
               bearing: -20.80
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
@@ -419,13 +424,13 @@ var config = {
               pitch: 38,
               bearing: 0
             },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
                   layer: 'south-sudan2',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 1
               },
               {
