@@ -52,7 +52,7 @@ var config = {
             hidden: false,
             title: 'Why look at water supply?',
             image: '',
-            description: 'The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods. ',
+            description: '<img src="images/water.png" />The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -290,7 +290,7 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                  layer: 'acled-2017',
+                  layer: 'acled-2021',
                   duration: 3000,
                   opacity: 0.4
               },
@@ -306,7 +306,7 @@ var config = {
             ],
             onChapterExit: [
               {
-                  layer: 'acled-2017',
+                  layer: 'acled-2021',
                   duration: 3000,
                   opacity: 0
               },
