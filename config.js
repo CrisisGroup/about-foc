@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cktitkiq73e3617nuj5h65wib',
+    style: 'mapbox://styles/daltonwb/cktks7kh316gh17mi4a280sp3',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -52,7 +52,7 @@ var config = {
             hidden: false,
             title: 'Why look at water supply?',
             image: '',
-            description: '<img src="images/water.png" />The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods.',
+            description: 'The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods.<h4>Absolute Water Supply by 2040</h4><img src="images/water.png" />',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -88,7 +88,7 @@ var config = {
             hidden: false,
             title: 'It is not just about droughts.',
             image: '',
-            description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with droughts and extreme heat.',
+            description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with droughts and extreme heat.<h4>Absolute Water Supply by 2040</h4><img src="images/water_dec.png" />',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -114,7 +114,7 @@ var config = {
             hidden: false,
             title: 'It can also be about vast oversupply.',
             image: '',
-            description: 'On the contrary, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.',
+            description: 'On the contrary, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.<h4>Absolute Water Supply by 2040</h4><img src="images/supply_full.png" />',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -155,7 +155,7 @@ var config = {
             hidden: false,
             title: 'Seasonal Variability by 2040',
             image: '',
-            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Climate volatility can induce livelihood insecurity, which frequently is key element of climate-related insecurity issues.',
+            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Climate volatility can induce livelihood insecurity, which frequently is key element of climate-related insecurity issues.<h4>Absolute Water Supply by 2040</h4><img src="images/variability.png" />',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -186,7 +186,7 @@ var config = {
             hidden: false,
             title: 'Higher Variability Rates Likely to Continue',
             image: '',
-            description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.',
+            description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.<h4>Change in Seasonal Variability of Water Supply (Baseline – 2040)</h4><img src="images/last.png" />',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
