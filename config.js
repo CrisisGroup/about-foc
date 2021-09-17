@@ -398,6 +398,11 @@ var config = {
                     opacity: 1
                 },
                 {
+                    layer: 'white_nile',
+                    duration: 3000,
+                    opacity: 0
+                },
+                {
                     layer: 'south-sudan2',
                     duration: 3000,
                     opacity: 0
@@ -436,7 +441,7 @@ var config = {
               {
                   layer: 'white_nile',
                   duration: 3000,
-                  opacity: 0
+                  opacity: 1
               },
               {
                   layer: 'main_nile',
@@ -472,11 +477,6 @@ var config = {
               },
               {
                   layer: 'nigeria',
-                  duration: 3000,
-                  opacity: 1
-              },
-              {
-                  layer: 'white_nile',
                   duration: 3000,
                   opacity: 1
               },
