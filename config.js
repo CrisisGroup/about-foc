@@ -88,7 +88,7 @@ var config = {
             hidden: false,
             title: 'It is not just about droughts.',
             image: '',
-            description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with droughts and extreme heat.<h4>Absolute Water Supply by 2040</h4><img src="images/water_dec.png" />',
+            description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with droughts and extreme heat.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -114,7 +114,7 @@ var config = {
             hidden: false,
             title: 'It can also be about vast oversupply.',
             image: '',
-            description: 'On the contrary, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.<h4>Absolute Water Supply by 2040</h4><img src="images/supply_full.png" />',
+            description: 'On the contrary, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -155,7 +155,7 @@ var config = {
             hidden: false,
             title: 'Seasonal Variability by 2040',
             image: '',
-            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Climate volatility can induce livelihood insecurity, which frequently is key element of climate-related insecurity issues.<h4>Absolute Water Supply by 2040</h4><img src="images/variability.png" />',
+            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Climate volatility can induce livelihood insecurity, which frequently is key element of climate-related insecurity issues.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -186,7 +186,7 @@ var config = {
             hidden: false,
             title: 'Higher Variability Rates Likely to Continue',
             image: '',
-            description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.<h4>Change in Seasonal Variability of Water Supply (Baseline – 2040)</h4><img src="images/last.png" />',
+            description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -381,7 +381,7 @@ var config = {
             hidden: false,
             title: 'Kenya – Severe Shortages',
             image: '',
-            description: '<ul><li><strong>Hazard</strong>: Droughts</li><li><strong>Impact</strong>:Increased resource competition aggravates ethnic tensions and contributes to violence around elections</li><li><strong>Our Insight</strong>: Assessing how politics and climatic hazards can potentially reignite historical grievances and intergroup conflict leading up to the 2022 elections</li></ul>',
+            description: '<strong>Hazard</strong>: Droughts<br /><br /><strong>Impact</strong>:Increased resource competition aggravates ethnic tensions and contributes to violence around elections<br /><br /><strong>Our Insight</strong>: Assessing how politics and climatic hazards can potentially reignite historical grievances and intergroup conflict leading up to the 2022 elections',
             location: {
               center: [37.886659, -0.160837],
               zoom: 5.8,
@@ -417,7 +417,7 @@ var config = {
             hidden: false,
             title: 'South Sudan – Flooding',
             image: '',
-            description: '<ul><li><strong>Hazard</strong>: Unprecedented flooding of the White Nile</li><li><strong>Impact</strong>:Displacement of pastoralists into Southern Equatoria, exacerbating grievances and leading to farmer-herder violence.</li><li><strong>Our Insight</strong>: Quantifying how internal climate-related displacement drives instability and violence.</li></ul>',
+            description: '<strong>Hazard</strong>: Unprecedented flooding of the White Nile<br /><br /><strong>Impact</strong>:Displacement of pastoralists into Southern Equatoria, exacerbating grievances and leading to farmer-herder violence.<br /><br /><strong>Our Insight</strong>: Quantifying how internal climate-related displacement drives instability and violence.',
             location: {
               center: [30.172241, 6.428853],
               zoom: 5.80,
@@ -457,7 +457,7 @@ var config = {
             description: 'How do we communicate climate change effectively?',
             location: {
               center: [24.414762, 7.835762],
-              zoom: 4.2,
+              zoom: 3.5,
               pitch: 48,
               bearing: 13.15
             },
