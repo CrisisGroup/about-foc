@@ -52,14 +52,14 @@ var config = {
             hidden: false,
             title: 'Why look at water supply?',
             image: '',
-            description: 'The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods.<h4>Absolute Water Supply by 2040</h4><img src="images/water.png" />',
+            description: 'The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
               pitch: 0,
               bearing: 0
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -325,7 +325,7 @@ var config = {
               pitch: 40.40,
               bearing: -12.89
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -365,7 +365,7 @@ var config = {
               pitch: 60,
               bearing: 0
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
@@ -388,7 +388,7 @@ var config = {
               pitch: 46.50,
               bearing: -20.80
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
@@ -424,7 +424,7 @@ var config = {
               pitch: 38,
               bearing: 0
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -461,7 +461,7 @@ var config = {
               pitch: 48,
               bearing: 13.15
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
