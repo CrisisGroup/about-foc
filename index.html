@@ -309,7 +309,17 @@
 <h4>Fatalities</h4>
 <ul class='legend-ul'>
 <li><div><span style='background-color: #a71616; border-radius: 100px; width: 10px; height: 10px;'></span>1 Fatality</div></li>
-<li><div><span style='background-color: #a71616; border-radius: 100px; width: 50px; height: 50px;'></span>1,100 Fatalities</div></li>
+<li><div><span style='background-color: #a71616; border-radius: 100px; width: 50px; height: 50px;'></span><span style='vertical-align: top; padding-right: 10px;'>1,100 Fatalities</span></div></li>
+</ul>
+</div>
+
+<div id='Chapter7legend' class='legend'>
+<h4>Fatalities</h4>
+<ul class='legend-ul'>
+	<li><div><span style='background-color: #dcee17'></span>Grass</div></li>
+	<li><div><span style='background-color: #44f353'></span>Agrirain</div></li>
+	<li><div><span style='background-color: #af7318'></span>Agrimix</div></li>
+	<li><div><span style='background-color: #2b16e9'></span>Agririg</div></li>
 </ul>
 </div>
 
@@ -535,6 +545,11 @@ map.on("load", function() {
 		 												$("#Chapter6legend").show("slow");
 		 									 } else
 		 												$("#Chapter6legend").hide("fast");
+
+														if (chapterid == "06" ) {
+			 												$("#Chapter7legend").show("slow");
+			 									 } else
+			 												$("#Chapter7legend").hide("fast");
 
 
 				response.element.classList.add('active');

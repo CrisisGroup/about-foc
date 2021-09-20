@@ -381,6 +381,47 @@ var config = {
             id: '07',
             alignment: 'left',
             hidden: false,
+            title: 'South Sudan – Flooding',
+            image: '',
+            description: '<strong>Hazard</strong>: Unprecedented flooding of the White Nile<br /><br /><strong>Impact</strong>:Displacement of pastoralists into Southern Equatoria, exacerbating grievances and leading to farmer-herder violence.<br /><br /><strong>Our Insight</strong>: Quantifying how internal climate-related displacement drives instability and violence.',
+            location: {
+              center: [30.172241, 6.428853],
+              zoom: 5.80,
+              pitch: 38,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                  layer: 'south-sudan2',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                layer: 'reach-lines',
+                duration: 3000,
+                opacity: 1
+              },
+              {
+                  layer: 'white_nile',
+                  duration: 3000,
+                  opacity: 1
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'reach-lines',
+                duration: 3000,
+                opacity: 0
+              }
+            ]
+        },
+        {
+            id: '08',
+            alignment: 'left',
+            hidden: false,
             title: 'Grand Ethiopian Renaissance Dam',
             image: '',
             description: '<strong>Hazard</strong>: Potential reduction in downstream water supplies<br /><br /><strong>Impact</strong>: Disagreement over a cohesive drought mitigation framework increases tensions between Nile Riparian States<br /><br /><strong>Our Insight</strong>: Drought during future filling stages and long-term water sharing on the Nile',
@@ -401,7 +442,7 @@ var config = {
             ]
         },
         {
-            id: '08',
+            id: '09',
             alignment: 'left',
             hidden: false,
             title: 'Kenya – Severe Shortages',
@@ -431,6 +472,11 @@ var config = {
                     layer: 'south-sudan2',
                     duration: 3000,
                     opacity: 0
+                },
+                {
+                    layer: 'main_nile',
+                    duration: 3000,
+                    opacity: 0
                 }
             ],
             onChapterExit: [
@@ -438,52 +484,6 @@ var config = {
                   layer: 'kenya',
                   duration: 3000,
                   opacity: 0
-              }
-            ]
-        },
-        {
-            id: '09',
-            alignment: 'left',
-            hidden: false,
-            title: 'South Sudan – Flooding',
-            image: '',
-            description: '<strong>Hazard</strong>: Unprecedented flooding of the White Nile<br /><br /><strong>Impact</strong>:Displacement of pastoralists into Southern Equatoria, exacerbating grievances and leading to farmer-herder violence.<br /><br /><strong>Our Insight</strong>: Quantifying how internal climate-related displacement drives instability and violence.',
-            location: {
-              center: [30.172241, 6.428853],
-              zoom: 5.80,
-              pitch: 38,
-              bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-              {
-                  layer: 'south-sudan2',
-                  duration: 2000,
-                  opacity: 1
-              },
-              {
-                layer: 'reach-lines',
-                duration: 3000,
-                opacity: 1
-              },
-              {
-                  layer: 'white_nile',
-                  duration: 3000,
-                  opacity: 1
-              },
-              {
-                  layer: 'main_nile',
-                  duration: 3000,
-                  opacity: 0
-              }
-            ],
-            onChapterExit: [
-              {
-                layer: 'reach-lines',
-                duration: 3000,
-                opacity: 0
               }
             ]
         },
@@ -511,6 +511,11 @@ var config = {
               },
               {
                   layer: 'nigeria',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
+                  layer: 'south-sudan2',
                   duration: 3000,
                   opacity: 1
               },
