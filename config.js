@@ -18,29 +18,29 @@ var config = {
             image: '',
             description: 'The global view',
             location: {
-                center: [-5.355576, -3.504505],
-                zoom: 1.25,
-                pitch: 0,
-                bearing: 0
+              center: [19.133761, 26.268723],
+              zoom: 1.85,
+              pitch: 0,
+              bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
                 layer: 'cw-countries-high',
                 duration: 1000,
-                opacity: 1
+                opacity: .8
               },
               {
                 layer: 'cw-countries-exhigh',
                 duration: 1000,
-                opacity: 1
+                opacity: .8
               },
               {
                 layer: 'cw-countries-exhigh-dis',
                 duration: 1000,
-                opacity: 1
+                opacity: .8
               }
             ],
             onChapterExit: [
@@ -350,11 +350,6 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'nigeria',
-                    duration: 2000,
-                    opacity: 1
-                },
-                {
                   layer: 'nigeria-landuse',
                   duration: 3000,
                   opacity: 1
@@ -370,6 +365,11 @@ var config = {
                 }
             ],
             onChapterExit: [
+                {
+                    layer: 'nigeria-landuse',
+                    duration: 3000,
+                    opacity: 0
+                },
                 {
                     layer: 'nigeria',
                     duration: 3000,
