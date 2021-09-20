@@ -5,7 +5,7 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: true,
-    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg_logo.png" width="100" height="100" /></a><br /><br /><h1>Global Climate Overview [something more hard-hitting!]</h1>',
+    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="75" height="75" /></a><br /><h1>Global Climate Overview</h1>',
     subtitle: '',
     byline: '',
     footer: '<a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a><br /><br /><img src="images/icg_logo.png" width="150" height="150" />',
@@ -58,7 +58,7 @@ var config = {
                 layer: 'cw-countries-exhigh-dis',
                 duration: 1000,
                 opacity: 0
-              }
+              },
               {
                 layer: 'sup_abs',
                 duration: 1000,
