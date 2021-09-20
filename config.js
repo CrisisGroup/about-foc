@@ -14,31 +14,51 @@ var config = {
             id: '00',
             alignment: 'left',
             hidden: false,
-            title: 'Water, water everywhere (or nowhere)',
+            title: 'Crisis Watch',
             image: '',
-            description: 'Why does this matter? We need a catchier hook, both visual and text, here to start. (This is the Lake Kariba Dam in Zimbabwe [but this can be anywhere in the world representative of water.])',
+            description: 'The global view',
             location: {
-                center: [28.7594805, -16.5221016],
-                zoom: 15,
-                pitch: 60,
-                bearing: 20
+                center: [-5.355576, -3.504505],
+                zoom: 1.25,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
-            callback: 'func',
+            callback: '',
             onChapterEnter: [
               {
-                layer: 'mapbox-satellite',
+                layer: 'cw-countries-high',
+                duration: 1000,
+                opacity: 1
+              },
+              {
+                layer: 'cw-countries-exhigh',
+                duration: 1000,
+                opacity: 1
+              },
+              {
+                layer: 'cw-countries-exhigh-dis',
                 duration: 1000,
                 opacity: 1
               }
             ],
             onChapterExit: [
               {
-                layer: 'mapbox-satellite',
-                duration: 3000,
+                layer: 'cw-countries-high',
+                duration: 1000,
                 opacity: 0
               },
+              {
+                layer: 'cw-countries-exhigh',
+                duration: 1000,
+                opacity: 0
+              },
+              {
+                layer: 'cw-countries-exhigh-dis',
+                duration: 1000,
+                opacity: 0
+              }
               {
                 layer: 'sup_abs',
                 duration: 1000,
@@ -331,8 +351,13 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'nigeria',
-                    duration: 3000,
+                    duration: 2000,
                     opacity: 1
+                },
+                {
+                  layer: 'nigeria-landuse',
+                  duration: 3000,
+                  opacity: 1
                 },
                 {
                     layer: 'country-labels',
@@ -439,6 +464,11 @@ var config = {
                   opacity: 1
               },
               {
+                layer: 'reach-lines',
+                duration: 3000,
+                opacity: 1
+              },
+              {
                   layer: 'white_nile',
                   duration: 3000,
                   opacity: 1
@@ -450,7 +480,11 @@ var config = {
               }
             ],
             onChapterExit: [
-
+              {
+                layer: 'reach-lines',
+                duration: 3000,
+                opacity: 0
+              }
             ]
         },
         {
