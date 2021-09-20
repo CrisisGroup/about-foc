@@ -523,6 +523,11 @@ var config = {
                   layer: 'main_nile',
                   duration: 3000,
                   opacity: 1
+              },
+              {
+                  layer: 'white_nile',
+                  duration: 3000,
+                  opacity: 1
               }
             ],
             onChapterExit: [
