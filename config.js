@@ -30,7 +30,7 @@ var config = {
               {
                 layer: 'cw-countries-ranking-all',
                 duration: 1000,
-                opacity: .8
+                opacity: .7
               }
             ],
             onChapterExit: [
