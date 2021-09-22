@@ -5,7 +5,7 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: true,
-    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="75" height="75" /></a><br /><h1>Global Climate Overview</h1>',
+    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Global Climate Overview</h1>',
     subtitle: '',
     byline: '',
     footer: '<a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a><br /><br /><img src="images/icg_logo.png" width="150" height="150" />',
@@ -13,13 +13,44 @@ var config = {
         {
             id: '00',
             alignment: 'left',
-            hidden: false,
-            title: 'Crisis Watch',
+            hidden: true,
+            title: '',
             image: '',
-            description: 'The global view',
+            description: '',
             location: {
-              center: [19.133761, 26.268723],
-              zoom: 1.85,
+              center: [5.133761, 26.268723],
+              zoom: 1.6,
+              pitch: 0,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'cw-countries-ranking-all',
+                duration: 1000,
+                opacity: .8
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'cw-countries-ranking-all',
+                duration: 1000,
+                opacity: .1
+              }
+          ]
+        },
+        {
+            id: '00A',
+            alignment: 'left',
+            hidden: false,
+            title: 'Climate and Conflict Exposure',
+            image: '',
+            description: '64% of the most climate fragile countries...',
+            location: {
+              center: [5.133761, 26.268723],
+              zoom: 1.6,
               pitch: 0,
               bearing: 0
             },
@@ -30,37 +61,54 @@ var config = {
               {
                 layer: 'cw-countries-high',
                 duration: 1000,
-                opacity: .8
-              },
+                opacity: 1
+              }
+            ],
+            onChapterExit: [
+
+          ]
+        },
+        {
+            id: '00B',
+            alignment: 'left',
+            hidden: false,
+            title: 'Climate and Conflict Exposure',
+            image: '',
+            description: '64% of the most climate fragile countries witness conflict or security risks today. As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.',
+            location: {
+              center: [5.133761, 26.268723],
+              zoom: 1.6,
+              pitch: 0,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
               {
-                layer: 'cw-countries-exhigh',
+                layer: 'cw-countries-yes',
                 duration: 1000,
                 opacity: .8
               },
               {
-                layer: 'cw-countries-exhigh-dis',
+                layer: 'cw-countries-high',
                 duration: 1000,
-                opacity: .8
+                opacity: 1
+              },
+              {
+                layer: 'cw-countries-ranking-all',
+                duration: 1000,
+                opacity: 0
               }
             ],
             onChapterExit: [
               {
+                layer: 'cw-countries-yes',
+                duration: 1000,
+                opacity: 0
+              },
+              {
                 layer: 'cw-countries-high',
-                duration: 1000,
-                opacity: 0
-              },
-              {
-                layer: 'cw-countries-exhigh',
-                duration: 1000,
-                opacity: 0
-              },
-              {
-                layer: 'cw-countries-exhigh-dis',
-                duration: 1000,
-                opacity: 0
-              },
-              {
-                layer: 'sup_abs',
                 duration: 1000,
                 opacity: 0
               }
