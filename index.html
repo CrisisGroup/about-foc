@@ -236,6 +236,18 @@
 
 	<div id="map"></div>
 
+	<div id='Chapter00legend' class='legend'>
+	<h4>Climatic Stress</h4>
+	<ul class='legend-ul'>
+	<li><div><span style='background-color: #fdfc9a'></span>Low (< 10%) </div></li>
+	<li><div><span style='background-color: #fde500'></span>Low - Medium (10-20%)</div></li>
+	<li><div><span style='background-color: #fc9a00'></span>Medium - High (20-40%)</div></li>
+	<li><div><span style='background-color: #fc0b00'></span>High (40-80%)</div></li>
+	<li><div><span style='background-color: #9a0000'></span>Extremely High (>80%)</span></div></li>
+	<li><div><span style='background-color: #636363'></span>No Data</div></li>
+	</ul>
+	</div>
+
 	<div id='Chapter1legend' class='legend'>
 <h4>Absolute Water Supply by 2040</h4>
 <ul class='legend-ul'>
@@ -515,6 +527,11 @@ map.on("load", function() {
 		.onStepEnter(response => {
 				var chapter = config.chapters.find(chap => chap.id === response.element.id);
 				var chapterid = chapter.id;
+
+				if (chapterid == "00" ) {
+				     $("#Chapter00legend").show("slow");
+				} else
+						 $("#Chapter00legend").hide("fast");
 
 				if (chapterid == "01A" ) {
 				     $("#Chapter1legend").show("slow");

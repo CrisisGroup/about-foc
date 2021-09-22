@@ -223,7 +223,7 @@ var config = {
             hidden: false,
             title: 'Seasonal Variability by 2040',
             image: '',
-            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Climate volatility can induce livelihood insecurity, which frequently is key element of climate-related insecurity issues.',
+            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Extreme climatic volatility oftentimes induces livelihood insecurity, which frequently exacerbates conflict risks.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -285,7 +285,7 @@ var config = {
             hidden: false,
             title: 'Three Regions to Watch for the Future of Climate Change',
             image: '',
-            description: 'Climatic distress presents security risks in the Horn of Africa, Sahel, South East Asia, Central America, Middle East and North Africa. We focus on the relationship between climatic shocks, resource competition, displacement and transboundary water disputes.',
+            description: 'Crisis Group identifies the most urgent climate security risks in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa. Our ongoing work focuses on the relationship between climatic shocks and resource competition, displacement and other security risks.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -386,7 +386,7 @@ var config = {
             hidden: false,
             title: 'Nigeria – Livestock Herding and Farming',
             image: '',
-            description: '<strong>Hazard</strong>: Increased temperatures and seasonal variability<br /><br /><strong>Impact</strong>: Rise in resource-related farmer-herder violence<br /><br /><strong>Our Insight</strong>: Assessing the climatic and political risks associated with the implementation of Nigeria’s National Livestock Transformation Plan.',
+            description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
             location: {
               center: [7.801678, 9.181589],
               zoom: 5.5,
@@ -410,6 +410,16 @@ var config = {
                 {   layer: 'mapbox-satellite',
                     duration: 3000,
                     opacity: 1
+                },
+                {
+                    layer: 'white_nile',
+                    duration: 3000,
+                    opacity: 0
+                },
+                {
+                    layer: 'south-sudan2',
+                    duration: 2000,
+                    opacity: 0
                 }
             ],
             onChapterExit: [
