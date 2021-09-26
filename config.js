@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cktsky4r00dlq17mv79g324qz',
+    style: 'mapbox://styles/daltonwb/cktxr68q80d2517v4evyob5nl',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -45,7 +45,7 @@ var config = {
             id: '00A',
             alignment: 'left',
             hidden: false,
-            title: 'Climate and Conflict Exposure',
+            title: 'Climate Fragility and Conflict Risk',
             image: '',
             description: '64% of the most climate fragile countries...',
             location: {
@@ -65,6 +65,11 @@ var config = {
               }
             ],
             onChapterExit: [
+              {
+                layer: 'cw-countries-high',
+                duration: 1000,
+                opacity: 0
+              }
 
           ]
         },
@@ -72,17 +77,17 @@ var config = {
             id: '00B',
             alignment: 'left',
             hidden: false,
-            title: 'Climate and Conflict Exposure',
+            title: 'Climate Fragility and Conflict Risk',
             image: '',
             description: '64% of the most climate fragile countries witness conflict or security risks today. As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.',
             location: {
-              center: [5.133761, 26.268723],
-              zoom: 1.6,
-              pitch: 0,
-              bearing: 0
+              center: [39.826029, 19.893737],
+              zoom: 2.4,
+              pitch: 52,
+              bearing: 18.87
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
               {
@@ -91,7 +96,7 @@ var config = {
                 opacity: .8
               },
               {
-                layer: 'cw-countries-high',
+                layer: 'cw-countries-yes-both',
                 duration: 1000,
                 opacity: 1
               },
@@ -108,6 +113,11 @@ var config = {
                 opacity: 0
               },
               {
+                layer: 'cw-countries-yes-both',
+                duration: 1000,
+                opacity: 0
+              },
+              {
                 layer: 'cw-countries-high',
                 duration: 1000,
                 opacity: 0
@@ -118,7 +128,7 @@ var config = {
             id: '01A',
             alignment: 'left',
             hidden: false,
-            title: 'Why look at water supply?',
+            title: 'Climate Change, Water and Conflict',
             image: '',
             description: 'The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods.',
             location: {
@@ -180,7 +190,7 @@ var config = {
             id: '01C',
             alignment: 'left',
             hidden: false,
-            title: 'It can also be about vast oversupply.',
+            title: 'It can also be about vast oversupply',
             image: '',
             description: 'On the contrary, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.',
             location: {
@@ -221,9 +231,9 @@ var config = {
             id: '02',
             alignment: 'left',
             hidden: false,
-            title: 'Seasonal Variability by 2040',
+            title: 'A Tale of Extremes',
             image: '',
-            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Extreme climatic volatility oftentimes induces livelihood insecurity, which frequently exacerbates conflict risks.',
+            description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more volatile in the coming decades.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -252,7 +262,7 @@ var config = {
             id: '03',
             alignment: 'left',
             hidden: false,
-            title: 'Higher Variability Rates Likely to Continue',
+            title: 'Higher Variability likely to continue',
             image: '',
             description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.',
             location: {
@@ -283,7 +293,7 @@ var config = {
             id: '04',
             alignment: 'left',
             hidden: false,
-            title: 'Three Regions to Watch for the Future of Climate Change',
+            title: 'Climate Fragile Regions to Watch',
             image: '',
             description: 'Crisis Group identifies the most urgent climate security risks in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa. Our ongoing work focuses on the relationship between climatic shocks and resource competition, displacement and other security risks.',
             location: {
@@ -362,12 +372,13 @@ var config = {
                   duration: 3000,
                   opacity: 0.4
               },
-              {   layer: 'mapbox-satellite',
+              {
+                  layer: 'country-labels',
                   duration: 3000,
                   opacity: 0
               },
               {
-                  layer: 'country-labels',
+                  layer: 'nigeria',
                   duration: 3000,
                   opacity: 0
               }
@@ -398,6 +409,88 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
+                    layer: 'country-labels',
+                    duration: 3000,
+                    opacity: 1
+                },
+                {
+                    layer: 'nigeria',
+                    duration: 3000,
+                    opacity: .4
+                },
+                {
+                    layer: 'white_nile',
+                    duration: 3000,
+                    opacity: 0
+                },
+                {
+                    layer: 'south-sudan2',
+                    duration: 2000,
+                    opacity: 0
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'nigeria-landuse',
+                    duration: 3000,
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: '06B',
+            alignment: 'left',
+            hidden: false,
+            title: 'Nigeria – Livestock Herding and Farming',
+            image: '',
+            description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
+            location: {
+              center: [4.674479, 10.011739],
+              zoom: 5,
+              pitch: 0,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'acled-2021',
+                    duration: 2000,
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+              {
+                  layer: 'acled-2021',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'nigeria',
+                  duration: 3000,
+                  opacity: 0
+              }
+            ]
+        },
+        {
+            id: '06C',
+            alignment: 'left',
+            hidden: false,
+            title: 'Nigeria – Livestock Herding and Farming',
+            image: '',
+            description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
+            location: {
+              center: [4.674479, 10.011739],
+              zoom: 5,
+              pitch: 0,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
                   layer: 'nigeria-landuse',
                   duration: 3000,
                   opacity: 1
@@ -409,7 +502,7 @@ var config = {
                 },
                 {   layer: 'mapbox-satellite',
                     duration: 3000,
-                    opacity: 1
+                    opacity: 0
                 },
                 {
                     layer: 'white_nile',
@@ -431,7 +524,7 @@ var config = {
                 {
                     layer: 'nigeria',
                     duration: 3000,
-                    opacity: 0
+                    opacity: 1
                 }
             ]
         },
@@ -452,6 +545,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+              {
+                layer: 'mapbox-satellite',
+                  duration: 3000,
+                  opacity: 1
+              },
               {
                   layer: 'south-sudan2',
                   duration: 2000,
