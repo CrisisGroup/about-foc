@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cktxr68q80d2517v4evyob5nl',
+    style: 'mapbox://styles/daltonwb/cku490bgi1ej317qjr0w0x7ap',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -28,16 +28,16 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                layer: 'cw-countries-ranking-all',
+                layer: 'wri-risk-basin',
                 duration: 1000,
-                opacity: .7
+                opacity: 1
               }
             ],
             onChapterExit: [
               {
-                layer: 'cw-countries-ranking-all',
+                layer: 'wri-risk-basin',
                 duration: 1000,
-                opacity: .1
+                opacity: 0
               }
           ]
         },
@@ -59,14 +59,14 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                layer: 'cw-countries-high',
+                layer: 'wri-risk-basin-high',
                 duration: 1000,
                 opacity: 1
               }
             ],
             onChapterExit: [
               {
-                layer: 'cw-countries-high',
+                layer: 'wri-risk-basin-high',
                 duration: 1000,
                 opacity: 0
               }
@@ -81,44 +81,24 @@ var config = {
             image: '',
             description: '64% of the most climate fragile countries witness conflict or security risks today. As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.',
             location: {
-              center: [39.826029, 19.893737],
-              zoom: 2.4,
-              pitch: 52,
-              bearing: 18.87
+              center: [5.133761, 26.268723],
+              zoom: 1.6,
+              pitch: 0,
+              bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
-                layer: 'cw-countries-yes',
-                duration: 1000,
-                opacity: .8
-              },
-              {
-                layer: 'cw-countries-yes-both',
+                layer: 'wri-risk-basin-high-cw',
                 duration: 1000,
                 opacity: 1
-              },
-              {
-                layer: 'cw-countries-ranking-all',
-                duration: 1000,
-                opacity: 0
               }
             ],
             onChapterExit: [
               {
-                layer: 'cw-countries-yes',
-                duration: 1000,
-                opacity: 0
-              },
-              {
-                layer: 'cw-countries-yes-both',
-                duration: 1000,
-                opacity: 0
-              },
-              {
-                layer: 'cw-countries-high',
+                layer: 'wri-risk-basin-high-cw',
                 duration: 1000,
                 opacity: 0
               }
@@ -419,7 +399,7 @@ var config = {
                     opacity: .4
                 },
                 {
-                    layer: 'white_nile',
+                    layer: 'nile',
                     duration: 3000,
                     opacity: 0
                 },
@@ -505,7 +485,7 @@ var config = {
                     opacity: 0
                 },
                 {
-                    layer: 'white_nile',
+                    layer: 'nile',
                     duration: 3000,
                     opacity: 0
                 },
@@ -561,7 +541,7 @@ var config = {
                 opacity: 1
               },
               {
-                  layer: 'white_nile',
+                  layer: 'nile',
                   duration: 3000,
                   opacity: 1
               }
@@ -620,7 +600,7 @@ var config = {
                     opacity: 1
                 },
                 {
-                    layer: 'white_nile',
+                    layer: 'nile',
                     duration: 3000,
                     opacity: 0
                 },
@@ -630,7 +610,7 @@ var config = {
                     opacity: 0
                 },
                 {
-                    layer: 'main_nile',
+                    layer: 'nile',
                     duration: 3000,
                     opacity: 0
                 }
@@ -676,12 +656,7 @@ var config = {
                   opacity: 1
               },
               {
-                  layer: 'main_nile',
-                  duration: 3000,
-                  opacity: 1
-              },
-              {
-                  layer: 'white_nile',
+                  layer: 'nile',
                   duration: 3000,
                   opacity: 1
               }
