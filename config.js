@@ -36,7 +36,7 @@ var config = {
                 layer: 'wri-risk-basin-high',
                 duration: 1000,
                 opacity: 0
-              }'
+              }
             ],
             onChapterExit: [
               {
@@ -106,7 +106,7 @@ var config = {
                 layer: 'wri-risk-basin-high',
                 duration: 1000,
                 opacity: 0
-              }'
+              }
           ]
         },
         {
