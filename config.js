@@ -8,7 +8,7 @@ var config = {
     title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Global Climate Overview</h1>',
     subtitle: '',
     byline: '',
-    footer: '<a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a><br /><br /><img src="images/icg_logo.png" width="150" height="150" />',
+    footer: '<a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a><br /><br />',
     chapters: [
         {
             id: '00',
@@ -459,7 +459,7 @@ var config = {
             hidden: false,
             title: 'Nigeria’s Farmer-Herder Violence',
             image: '',
-            description: '<strong>Our Insight</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><strong>Our Recommendation</strong>: The federal government should ensure that all states participating in the livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves. Crisis Group recommends that Nigerian authorities prioritise building capacity for livestock management, and improve communication to better explain the plan to those affected.',
+            description: '<strong>Our Insight</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><br /><strong>Our Recommendation</strong>: The federal government should ensure that all states participating in the livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves.<br /><br /> Crisis Group recommends that Nigerian authorities prioritise building capacity for livestock management, and improve communication to better explain the plan to those affected.',
             location: {
               center: [4.674479, 10.011739],
               zoom: 5,
@@ -551,6 +551,11 @@ var config = {
                 layer: 'reach-lines',
                 duration: 3000,
                 opacity: 0
+              },
+              {
+                  layer: 'nile',
+                  duration: 3000,
+                  opacity: 0
               }
             ]
         },
@@ -560,7 +565,7 @@ var config = {
             hidden: false,
             title: 'Grand Ethiopian Renaissance Dam',
             image: '',
-            description: '<strong>Hazard</strong>: Potential reduction in downstream water supplies<br /><br /><strong>Impact</strong>: Disagreement over a cohesive drought mitigation framework increases tensions between Nile Riparian States<br /><br /><strong>Our Insight</strong>: Drought during future filling stages and long-term water sharing on the Nile',
+            description: '<strong>Background</strong>: The continued stalling of negotiations between Ethiopia and northstream Nile Riparian states over fillings and drought management protocols for the Grand Ethiopian Renaissance Dam have the potential to escalate into conflict as climate change becomes more severe, threatening downstream water supplies.<br /><br /><strong>Planned Work</strong>: Future work will detail ways forward from the Grand Ethiopian Renaissance Dam debate to get beyond zero-sum thinking and explore how the project can be the fulcrum of a new era of cooperation.',
             location: {
               center: [35.0912717, 11.2153265],
               zoom: 15.5,
@@ -581,9 +586,9 @@ var config = {
             id: '09',
             alignment: 'left',
             hidden: false,
-            title: 'Kenya – Severe Shortages',
+            title: 'Kenya’s Outlook',
             image: '',
-            description: '<strong>Hazard</strong>: Droughts<br /><br /><strong>Impact</strong>:Increased resource competition aggravates ethnic tensions and contributes to violence around elections<br /><br /><strong>Our Insight</strong>: Assessing how politics and climatic hazards can potentially reignite historical grievances and intergroup conflict leading up to the 2022 elections',
+            description: '<strong>Background</strong>: Severe seasonal droughts and other weather extremes in Kenya’s Laikipia region helped intensify land and resource competition between rival ethnic groups and contributed to inter-communal violence, particularly around election cycles.<br /><br /><strong>Planned Work</strong>: Future work will evaluate to what extent intercommunal conflicts are caused or worsened by climate change and look at avenues for resolution. In northern Kenya, we will research ongoing intercommunal conflicts which are partially driven by drought and depleting pastures and which have serious cross-border dimensions.',
             location: {
               center: [37.886659, -0.160837],
               zoom: 5.8,
@@ -600,7 +605,7 @@ var config = {
                     opacity: 1
                 },
                 {
-                    layer: 'nile',
+                    layer: 'nile_end',
                     duration: 3000,
                     opacity: 0
                 },
@@ -610,7 +615,12 @@ var config = {
                     opacity: 0
                 },
                 {
-                    layer: 'nile',
+                    layer: 'gerd-label',
+                    duration: 3000,
+                    opacity: 0
+                },
+                {
+                    layer: 'gerd-dot',
                     duration: 3000,
                     opacity: 0
                 }
@@ -627,9 +637,9 @@ var config = {
             id: '10',
             alignment: 'left',
             hidden: false,
-            title: 'Grand Conclusion!',
-            image: '',
-            description: 'How do we communicate climate change effectively?',
+            title: 'Crisis Group’s Insight',
+            image: 'images/icg_logo.png',
+            description: 'At Crisis Group, the Future of Conflict Programme blends field insights with climate science and state-of-the-art quantitative methods, providing us unmatched insights at a local level - to formulate effective policy recommendations addressing the root causes of conflict.',
             location: {
               center: [24.414762, 7.835762],
               zoom: 3.5,
@@ -646,6 +656,16 @@ var config = {
                   opacity: 1
               },
               {
+                  layer: 'gerd-label',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
+                  layer: 'gerd-dot',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
                   layer: 'nigeria',
                   duration: 3000,
                   opacity: 1
@@ -656,7 +676,7 @@ var config = {
                   opacity: 1
               },
               {
-                  layer: 'nile',
+                  layer: 'nile_end',
                   duration: 3000,
                   opacity: 1
               }
