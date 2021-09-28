@@ -31,7 +31,12 @@ var config = {
                 layer: 'wri-risk-basin',
                 duration: 1000,
                 opacity: 1
-              }
+              },
+              {
+                layer: 'wri-risk-basin-high',
+                duration: 1000,
+                opacity: 0
+              }'
             ],
             onChapterExit: [
               {
@@ -65,11 +70,6 @@ var config = {
               }
             ],
             onChapterExit: [
-              {
-                layer: 'wri-risk-basin-high',
-                duration: 1000,
-                opacity: 0
-              }
 
           ]
         },
@@ -81,9 +81,9 @@ var config = {
             image: '',
             description: '64% of the most climate fragile countries witness conflict or security risks today. As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.',
             location: {
-              center: [5.133761, 26.268723],
-              zoom: 1.6,
-              pitch: 0,
+              center: [10.818423, -1.069410],
+              zoom: 1.55,
+              pitch: 36.00,
               bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -93,7 +93,7 @@ var config = {
               {
                 layer: 'wri-risk-basin-high-cw',
                 duration: 1000,
-                opacity: 1
+                opacity: .85
               }
             ],
             onChapterExit: [
@@ -101,7 +101,12 @@ var config = {
                 layer: 'wri-risk-basin-high-cw',
                 duration: 1000,
                 opacity: 0
-              }
+              },
+              {
+                layer: 'wri-risk-basin-high',
+                duration: 1000,
+                opacity: 0
+              }'
           ]
         },
         {
@@ -616,12 +621,12 @@ var config = {
                 },
                 {
                     layer: 'gerd-label',
-                    duration: 3000,
+                    duration: 1000,
                     opacity: 0
                 },
                 {
                     layer: 'gerd-dot',
-                    duration: 3000,
+                    duration: 1000,
                     opacity: 0
                 }
             ],
