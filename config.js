@@ -110,7 +110,7 @@ var config = {
             hidden: false,
             title: 'Climate Change, Water and Conflict',
             image: '',
-            description: 'The majority of climate security risks revolve around water, making water supply a crucial variable to consider when assessing climate change’s impact on livelihoods.',
+            description: 'From flood-induced livelihood insecurity to transboundary water disputes - the majority of climate security risks revolve around water - and climate change will continue disrupting the global supply of water in coming decades.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -146,7 +146,7 @@ var config = {
             hidden: false,
             title: 'It is not just about droughts.',
             image: '',
-            description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with droughts and extreme heat.',
+            description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with multi-year droughts and extreme heat.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -211,9 +211,9 @@ var config = {
             id: '02',
             alignment: 'left',
             hidden: false,
-            title: 'A Tale of Extremes',
+            title: 'Living with a Rogue Climate',
             image: '',
-            description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more volatile in the coming decades.',
+            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Extreme climatic volatility oftentimes induces livelihood insecurity, which can exacerbate conflict risks.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -242,7 +242,7 @@ var config = {
             id: '03',
             alignment: 'left',
             hidden: false,
-            title: 'Higher Variability likely to continue',
+            title: ' Climate Swings Likely to Intensify in Fragile Regions',
             image: '',
             description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.',
             location: {
@@ -375,7 +375,7 @@ var config = {
             id: '06',
             alignment: 'left',
             hidden: false,
-            title: 'Nigeria – Livestock Herding and Farming',
+            title: 'Nigeria’s Farmer-Herder Violence',
             image: '',
             description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
             location: {
@@ -421,7 +421,7 @@ var config = {
             id: '06B',
             alignment: 'left',
             hidden: false,
-            title: 'Nigeria – Livestock Herding and Farming',
+            title: 'Nigeria’s Farmer-Herder Violence',
             image: '',
             description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
             location: {
@@ -457,9 +457,9 @@ var config = {
             id: '06C',
             alignment: 'left',
             hidden: false,
-            title: 'Nigeria – Livestock Herding and Farming',
+            title: 'Nigeria’s Farmer-Herder Violence',
             image: '',
-            description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
+            description: '<strong>Our Insight</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><strong>Our Recommendation</strong>: The federal government should ensure that all states participating in the livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves. Crisis Group recommends that Nigerian authorities prioritise building capacity for livestock management, and improve communication to better explain the plan to those affected.',
             location: {
               center: [4.674479, 10.011739],
               zoom: 5,
