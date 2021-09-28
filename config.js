@@ -82,11 +82,11 @@ var config = {
             description: '64% of the most climate fragile countries witness conflict or security risks today. As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.',
             location: {
               center: [10.818423, -1.069410],
-              zoom: 1.55,
+              zoom: 2.2,
               pitch: 36.00,
               bearing: 0
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -94,6 +94,11 @@ var config = {
                 layer: 'wri-risk-basin-high-cw',
                 duration: 1000,
                 opacity: .85
+              },
+              {
+                layer: 'wri-risk-basin-high',
+                duration: 1000,
+                opacity: .3
               }
             ],
             onChapterExit: [
