@@ -89,7 +89,7 @@ var config = {
             hidden: false,
             title: 'Climate Fragility and Conflict Risk',
             image: '',
-            description: '64% of these countries witness conflict or security risks today. As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.',
+            description: 'Half of the most <span style="color: #f71d1d;"><u>climate-fragile countries</u></span> also face conflict and crises today',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -135,7 +135,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2>And of that 64%, <strong><u>half</u> of those also face conflict or security risks</strong> today.</h2>',
+            description: '<h2>As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.</h2>',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
