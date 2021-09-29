@@ -559,22 +559,12 @@ var config = {
                   opacity: 1
               },
               {
-                layer: 'reach-lines',
-                duration: 3000,
-                opacity: 1
-              },
-              {
                   layer: 'nile',
                   duration: 3000,
                   opacity: 1
               }
             ],
             onChapterExit: [
-              {
-                layer: 'reach-lines',
-                duration: 3000,
-                opacity: 0
-              },
               {
                   layer: 'nile',
                   duration: 3000,
