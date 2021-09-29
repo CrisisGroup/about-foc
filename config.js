@@ -105,9 +105,9 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                layer: 'wri-risk-basin-high-cw',
+                layer: 'wri-risk-basin-high-cw2',
                 duration: 1000,
-                opacity: .85
+                opacity: .8
               },
               {
                 layer: 'wri-risk-basin-high2',
@@ -117,7 +117,7 @@ var config = {
             ],
             onChapterExit: [
               {
-                layer: 'wri-risk-basin-high-cw',
+                layer: 'wri-risk-basin-high-cw2',
                 duration: 1000,
                 opacity: 0
               },
@@ -580,9 +580,9 @@ var config = {
             id: '07B',
             alignment: 'left',
             hidden: false,
-            title: 'South Sudan – Two',
+            title: 'South Sudan – Floods and Displacement',
             image: '',
-            description: 'Our insight Crisis Group’s quantitative analysis maps the flood’s impact on displacement pathways, identifying an increased incidence of conflict in areas displaced groups relocated. Paired with survey data, we can map and anticipate migration routes, to help improve anticipatory action and crisis response. What should be done Build flood resilience to improve livelihood security and mechanisms that prevent long-distance displacement in the first place. (Alan fill in please)Quote to be added “Snakes and people were competing for higher ground.”',
+            description: '<strong>Our Insight</strong>: Crisis Group’s quantitative analysis maps the flood’s impact on displacement pathways, identifying an increased incidence of conflict in areas displaced groups relocated. Paired with survey data, we can map and anticipate migration routes, to help improve anticipatory action and crisis response.<br /><br /> <strong>What Should be Done</strong>: Build flood resilience to improve livelihood security and mechanisms that prevent long-distance displacement in the first place.',
             location: {
               center: [30.172241, 6.428853],
               zoom: 5.80,
@@ -603,7 +603,7 @@ var config = {
             id: '08',
             alignment: 'left',
             hidden: false,
-            title: 'Grand Ethiopian Renaissance Dam',
+            title: 'Grand Ethiopian Renaissance Dam – Outlook',
             image: '',
             description: '<strong>Background</strong>: The continued stalling of negotiations between Ethiopia and northstream Nile Riparian states over fillings and drought management protocols for the Grand Ethiopian Renaissance Dam have the potential to escalate into conflict as climate change becomes more severe, threatening downstream water supplies.<br /><br /><strong>Planned Work</strong>: Future work will detail ways forward from the Grand Ethiopian Renaissance Dam debate to get beyond zero-sum thinking and explore how the project can be the fulcrum of a new era of cooperation.',
             location: {
