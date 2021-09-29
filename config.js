@@ -93,7 +93,7 @@ var config = {
             hidden: false,
             title: 'Climate Fragility and Conflict Risk',
             image: '',
-            description: 'Half of the most <span style="color: #f71d1d;"><u>climate-fragile countries</u></span> also face conflict and crises today',
+            description: 'Half of the most climate-fragile countries also face <span style="color: #f71d1d;"><u>conflict and crises</u></span> today',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
