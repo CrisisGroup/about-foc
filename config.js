@@ -36,6 +36,11 @@ var config = {
                 layer: 'wri-risk-basin-high',
                 duration: 1000,
                 opacity: 0
+              },
+              {
+                layer: 'risk-country-borders',
+                duration: 1000,
+                opacity: 0
               }
             ],
             onChapterExit: [
@@ -65,6 +70,11 @@ var config = {
             onChapterEnter: [
               {
                 layer: 'wri-risk-basin-high',
+                duration: 1000,
+                opacity: 1
+              },
+              {
+                layer: 'risk-country-borders',
                 duration: 1000,
                 opacity: 1
               }
@@ -98,7 +108,7 @@ var config = {
               {
                 layer: 'wri-risk-basin-high',
                 duration: 1000,
-                opacity: .3
+                opacity: .2
               }
             ],
             onChapterExit: [
@@ -111,6 +121,11 @@ var config = {
                 layer: 'wri-risk-basin-high',
                 duration: 1000,
                 opacity: 0
+              },
+              {
+                layer: 'risk-country-borders',
+                duration: 1000,
+                opacity: 0
               }
           ]
         },
@@ -120,7 +135,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Of the most climate fragile countries, <strong><u>half</u> also face conflict or security risks</strong> today.',
+            description: '<h2>Of the most climate fragile countries, <strong><u>half</u> also face conflict or security risks</strong> today.</h2>',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -338,6 +353,11 @@ var config = {
                   layer: 'countries_mekong',
                   duration: 3000,
                   opacity: 1
+              },
+              {
+                  layer: 'acled-2021',
+                  duration: 3000,
+                  opacity: 0
               }
             ],
             onChapterExit: [
@@ -397,11 +417,7 @@ var config = {
               }
             ],
             onChapterExit: [
-              {
-                  layer: 'acled-2021',
-                  duration: 3000,
-                  opacity: 0
-              },
+
             ]
         },
         {
@@ -413,7 +429,7 @@ var config = {
             description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
             location: {
               center: [7.801678, 9.181589],
-              zoom: 5.5,
+              zoom: 6,
               pitch: 40.40,
               bearing: -12.89
             },
@@ -440,33 +456,7 @@ var config = {
                     layer: 'south-sudan2',
                     duration: 2000,
                     opacity: 0
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'nigeria-landuse',
-                    duration: 3000,
-                    opacity: 0
-                }
-            ]
-        },
-        {
-            id: '06B',
-            alignment: 'left',
-            hidden: false,
-            title: 'Nigeria’s Farmer-Herder Violence',
-            image: '',
-            description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
-            location: {
-              center: [4.674479, 10.011739],
-              zoom: 5,
-              pitch: 0,
-              bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
+                },
                 {
                     layer: 'acled-2021',
                     duration: 2000,
@@ -474,16 +464,21 @@ var config = {
                 }
             ],
             onChapterExit: [
-              {
-                  layer: 'acled-2021',
-                  duration: 2000,
-                  opacity: 0
-              },
-              {
-                  layer: 'nigeria',
-                  duration: 3000,
-                  opacity: 0
-              }
+                {
+                    layer: 'nigeria-landuse',
+                    duration: 3000,
+                    opacity: 0
+                },
+                {
+                    layer: 'acled-2021',
+                    duration: 2000,
+                    opacity: 0
+                },
+                {
+                    layer: 'nigeria',
+                    duration: 3000,
+                    opacity: 0
+                }
             ]
         },
         {
