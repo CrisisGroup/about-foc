@@ -57,7 +57,7 @@ var config = {
             hidden: false,
             title: 'Climate Fragility and Conflict Risk',
             image: '',
-            description: '64% of the most climate fragile countries...',
+            description: 'These are the most climate-fragile countries in the world.',
             location: {
               center: [5.133761, 26.268723],
               zoom: 1.6,
@@ -89,7 +89,7 @@ var config = {
             hidden: false,
             title: 'Climate Fragility and Conflict Risk',
             image: '',
-            description: '64% of the most climate fragile countries witness conflict or security risks today. As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.',
+            description: '64% of these countries witness conflict or security risks today. As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -135,7 +135,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2>Of the most climate fragile countries, <strong><u>half</u> also face conflict or security risks</strong> today.</h2>',
+            description: '<h2>And of that 64%, <strong><u>half</u> of those also face conflict or security risks</strong> today.</h2>',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -290,7 +290,7 @@ var config = {
             id: '03',
             alignment: 'left',
             hidden: false,
-            title: ' Climate Swings Likely to Intensify in Fragile Regions',
+            title: 'Climate Swings Likely to Intensify in Fragile Regions',
             image: '',
             description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.',
             location: {
@@ -325,12 +325,12 @@ var config = {
             image: '',
             description: 'Crisis Group identifies the most urgent climate security risks in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa. Our ongoing work focuses on the relationship between climatic shocks and resource competition, displacement and other security risks.',
             location: {
-              center: [19.133761, 26.268723],
+              center: [33.037607, 5.376198],
               zoom: 1.85,
-              pitch: 0,
-              bearing: 0
+              pitch: 38.50,
+              bearing: -26.40
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -356,7 +356,7 @@ var config = {
               },
               {
                   layer: 'acled-2021',
-                  duration: 3000,
+                  duration: 1000,
                   opacity: 0
               }
             ],
@@ -403,7 +403,7 @@ var config = {
               {
                   layer: 'acled-2021',
                   duration: 3000,
-                  opacity: 0
+                  opacity: 1
               },
               {
                   layer: 'country-labels',
@@ -456,11 +456,6 @@ var config = {
                     layer: 'south-sudan2',
                     duration: 2000,
                     opacity: 0
-                },
-                {
-                    layer: 'acled-2021',
-                    duration: 2000,
-                    opacity: 1
                 }
             ],
             onChapterExit: [
