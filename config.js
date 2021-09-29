@@ -80,7 +80,11 @@ var config = {
               }
             ],
             onChapterExit: [
-
+              {
+                layer: 'risk-country-borders',
+                duration: 1000,
+                opacity: 0
+              }
           ]
         },
         {
@@ -537,7 +541,7 @@ var config = {
             hidden: false,
             title: 'South Sudan – Floods and Displacement',
             image: '',
-            description: '<strong>Hazard</strong>: Unprecedented flooding of the White Nile<br /><br /><strong>Impact</strong>:Displacement of pastoralists into Southern Equatoria, exacerbating grievances and leading to farmer-herder violence.<br /><br /><strong>Our Insight</strong>: Quantifying how internal climate-related displacement drives instability and violence.',
+            description: 'The compound effects of three consecutive years of historic flooding in South Sudan exacerbated widespread food and livelihood insecurity, displacing over half a million people, driving pastoralists south and fueling violence in the Equatoria region.',
             location: {
               center: [30.172241, 6.428853],
               zoom: 5.80,
@@ -578,7 +582,7 @@ var config = {
             hidden: false,
             title: 'South Sudan – Two',
             image: '',
-            description: 'Test Test',
+            description: 'Our insight Crisis Group’s quantitative analysis maps the flood’s impact on displacement pathways, identifying an increased incidence of conflict in areas displaced groups relocated. Paired with survey data, we can map and anticipate migration routes, to help improve anticipatory action and crisis response. What should be done Build flood resilience to improve livelihood security and mechanisms that prevent long-distance displacement in the first place. (Alan fill in please)Quote to be added “Snakes and people were competing for higher ground.”',
             location: {
               center: [30.172241, 6.428853],
               zoom: 5.80,
