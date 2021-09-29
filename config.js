@@ -325,10 +325,10 @@ var config = {
             image: '',
             description: 'Crisis Group identifies the most urgent climate security risks in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa. Our ongoing work focuses on the relationship between climatic shocks and resource competition, displacement and other security risks.',
             location: {
-              center: [33.037607, 5.376198],
-              zoom: 1.85,
-              pitch: 38.50,
-              bearing: -26.40
+              center: [10.818423, -1.069410],
+              zoom: 2.2,
+              pitch: 36.00,
+              bearing: 0
             },
             mapAnimation: 'easeTo',
             rotateAnimation: false,
