@@ -33,7 +33,7 @@ var config = {
                 opacity: 1
               },
               {
-                layer: 'wri-risk-basin-high',
+                layer: 'wri-risk-basin-high2',
                 duration: 1000,
                 opacity: 0
               },
@@ -69,7 +69,7 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                layer: 'wri-risk-basin-high',
+                layer: 'wri-risk-basin-high2',
                 duration: 1000,
                 opacity: 1
               },
@@ -106,7 +106,7 @@ var config = {
                 opacity: .85
               },
               {
-                layer: 'wri-risk-basin-high',
+                layer: 'wri-risk-basin-high2',
                 duration: 1000,
                 opacity: .2
               }
@@ -118,7 +118,7 @@ var config = {
                 opacity: 0
               },
               {
-                layer: 'wri-risk-basin-high',
+                layer: 'wri-risk-basin-high2',
                 duration: 1000,
                 opacity: 0
               },
@@ -403,7 +403,7 @@ var config = {
               {
                   layer: 'acled-2021',
                   duration: 3000,
-                  opacity: 0.4
+                  opacity: 0
               },
               {
                   layer: 'country-labels',
