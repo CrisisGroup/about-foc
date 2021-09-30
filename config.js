@@ -139,7 +139,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2>As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.</h2>',
+            description: '<h2 class="liftout">As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.</h2>',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -598,6 +598,29 @@ var config = {
             onChapterExit: [
 
             ]
+        },
+        {
+            id: 'QUOTE2',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<h2 class="liftout">“Both snakes and people were competing for higher ground.”</h2> – <em>An anonymous Sudanese herder who fled Twic East county during the 2020 floods.</em></h2>',
+            location: {
+              center: [30.172241, 6.428853],
+              zoom: 5.80,
+              pitch: 38,
+              bearing: 0
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+          ]
         },
         {
             id: '08',

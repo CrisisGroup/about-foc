@@ -61,6 +61,11 @@
 						text-align: left;
 						font-family: 'Libre Franklin', sans-serif;
 				}
+				h2.liftout {
+					font-size: 2.6em;
+					font-family: 'Libre Franklin', sans-serif;
+					letter-spacing: 1px;
+				}
 				h3 {
 					font-family: 'Libre Franklin', sans-serif;
 					font-size: 21px;
@@ -367,8 +372,6 @@
 
 <script>
 
-function testmath() { return (5 * 19); }
-
 var layerTypes = {
 		'fill': ['fill-opacity'],
 		'line': ['line-opacity'],
@@ -390,10 +393,6 @@ function getLayerPaintType(layer) {
 		var layerType = map.getLayer(layer).type;
 		return layerTypes[layerType];
 }
-
-// TEST CALLBACK FUNC / FOR LEGEND CALLS
-//	function func() { return (5 * 19); }
-//	console.log(func());
 
 function setLayerOpacity(layer) {
 		var paintProps = getLayerPaintType(layer.layer);
@@ -553,6 +552,10 @@ map.on("load", function() {
 		.onStepEnter(response => {
 				var chapter = config.chapters.find(chap => chap.id === response.element.id);
 				var chapterid = chapter.id;
+
+				if (chapterid == "QUOTE") {
+					$("#jsshow").show("slow");
+				}
 
 				if ((chapterid == "00") || (chapterid == "00A")) {
 				     $("#Chapter00legend").show("slow");
