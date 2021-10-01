@@ -8,7 +8,7 @@ var config = {
     title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Global Climate Overview</h1>',
     subtitle: '',
     byline: '',
-    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Ulrich Eberle<br /><strong>Dataviz & Development</strong>: Paul Franz<br /><strong>Support: </strong>Andrew Ciacci and Juan Lozano<br /><br />Data:</strong> <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a>, GADM, WRI, and ACLED<br /><br /><strong>Special Thanks</strong>: <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
+    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Ulrich Eberle<br /><strong>Dataviz & Development</strong>: Paul Franz<br /><strong>Support: </strong>Andrew Ciacci and Juan Lozano<br /><br /><h4>Data Sources</h4> <a href="https://www.crisisgroup.org/crisiswatch" target="_blank">CrisisWatch</a>, September, 2021<br /><a href="http://www.esa-landcover-cci.org/?q=node/164" target="_blank">European Space Agency</a>. 2017. Land Cover CCI Product User Guide Version 2.<br /><a href="https://www.gadm.org" target="_blank">GADM</a>. 2012. “Database of Global Administrative Areas”.<br />Luck, M., M. Landis, and F. Gassert. 2015. “Aqueduct Water Stress Projections: Decadal Projections of Water Supply and Demand using CMIP5 GCMs.” <a href="https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=-14.445396942837744&lng=-142.85354599620152&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=2" target="_blank">World Resources Institute</a>.<br />Raleigh, C., A. Linke, H. Hegre and J. Karlsen. 2010. “<a href="https://acleddata.com/data-export-tool/" target="_blank">Introducing ACLED Armed Conflict Location and Event Data</a>.” Journal of Peace Research 47(5):651-660.<br /><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
     chapters: [
         {
             id: '00',
@@ -57,7 +57,7 @@ var config = {
             hidden: false,
             title: 'Climate Fragility and Conflict Risk',
             image: '',
-            description: 'These are the most climate-fragile countries in the world.',
+            description: 'These are the most climate-fragile countries in the world today.',
             location: {
               center: [5.133761, 26.268723],
               zoom: 1.6,
@@ -91,9 +91,9 @@ var config = {
             id: '00B',
             alignment: 'left',
             hidden: false,
-            title: 'Climate Fragility and Conflict Risk',
+            title: '',
             image: '',
-            description: 'Half of the most climate-fragile countries also face <span style="color: #f71d1d;"><u>conflict and crises</u></span> today',
+            description: 'Half of the most climate-fragile countries also face <span style="color: #f71d1d;"><u>conflict and crises</u></span>.',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -139,7 +139,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">As the world is warming, climatic distress plays an increasingly central role in many of today’s conflicts.</h2>',
+            description: '<h2 class="liftout">As the world warms, climatic distress plays an increasingly central role in many of today’s conflicts.</h2>',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -162,7 +162,7 @@ var config = {
             hidden: false,
             title: 'Climate Change, Water and Conflict',
             image: '',
-            description: 'From flood-induced livelihood insecurity to transboundary water disputes - the majority of climate security risks revolve around water - and climate change will continue disrupting the global supply of water in coming decades.',
+            description: 'From flood-induced livelihood insecurity to transboundary water disputes, the majority of climate security risks revolve around water.  Climate change will continue to imperil the global water supply in coming decades.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -198,7 +198,7 @@ var config = {
             hidden: false,
             title: 'A Tale of Extremes',
             image: '',
-            description: 'Yet, the relationship between climate change, water supply, and instability is by no means linear. Parts of the world will experience a decrease in water supply, frequently associated with multi-year droughts and extreme heat.',
+            description: 'The relationship between climate change, water supply, and instability is as clear as it is complex. Parts of the world will suffer a decrease in water supply, frequently associated with multi-year droughts and extreme heat.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -222,9 +222,9 @@ var config = {
             id: '01C',
             alignment: 'left',
             hidden: false,
-            title: 'It is not only about droughts',
+            title: 'It is not only about Drought',
             image: '',
-            description: 'On the contrary, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.',
+            description: 'At the same time, many regions currently experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -265,7 +265,7 @@ var config = {
             hidden: false,
             title: 'Living with a Rogue Climate',
             image: '',
-            description: 'Increases in water supply oftentimes manifest in extreme forms, such as prolonged dry seasons, followed by erratic and extreme distributions of precipitation. Extreme climatic volatility oftentimes induces livelihood insecurity, which can exacerbate conflict risks.',
+            description: 'Increases in water supply often manifest in extreme forms, such as prolonged dry seasons followed by erratic and extreme precipitation. Extreme climatic volatility often induces livelihood insecurity, which can exacerbate conflict risks.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -296,7 +296,7 @@ var config = {
             hidden: false,
             title: 'Climate Swings Likely to Intensify in Fragile Regions',
             image: '',
-            description: 'Crucially, many of the regions with the highest exposure to seasonal variability are projected to become even more fragile in the coming decades.',
+            description: 'Crucially, many fragile regions with the highest exposure to seasonal variability are projected to become even more at risk in the coming decades.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -325,9 +325,9 @@ var config = {
             id: '04',
             alignment: 'left',
             hidden: false,
-            title: 'Climate Fragile Regions to Watch',
+            title: 'Regions to Watch',
             image: '',
-            description: 'Crisis Group identifies the most urgent climate security risks in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa. Our ongoing work focuses on the relationship between climatic shocks and resource competition, displacement and other security risks.',
+            description: 'Crisis Group identifies the most urgent climate security risks in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa. We focus particularly on climatic shocks and resource competition, displacement and other security risks in Africa.',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -393,7 +393,7 @@ var config = {
             hidden: false,
             title: 'Land-Related Violence in Africa',
             image: '',
-            description: 'In Africa, it is no coincidence that resource related violence is concentrated in the climate fragile Sahel and Horn regions. Climate mapping alone, however, is insufficient to predict conflict risks. To exactly pin down the link between climatic stress factors and conflict, Crisis Group pairs cutting-edge statistical analysis with field research to measure how climatic shocks interact with political and social dynamics at a granular level.',
+            description: 'In Africa, resource-related violence is concentrated in the climate fragile Sahel and Horn regions. Climate mapping alone, however, is insufficient to predict conflict risks. To pin down the link between climatic stress factors and conflict, Crisis Group pairs cutting-edge statistical analysis with field research to measure how climatic shocks interact with political and social dynamics.',
             location: {
               center: [-1.705, 17.271],
               zoom: 2.8,
@@ -430,7 +430,7 @@ var config = {
             hidden: false,
             title: 'Nigeria’s Farmer-Herder Violence',
             image: '',
-            description: 'Deadly conflicts between farmers and herders in Nigeria have claimed the lives of thousands, with climate change contributing to wide-scale livelihood insecurity, displacement, criminality - all furthering ethnic and political divides.',
+            description: 'Deadly conflicts between farmers and herders in Nigeria have claimed thousands of lives. Climate change plays a role in the food insecurity, economic inequality, displacement and criminality that aggravate ethnic and political divides.',
             location: {
               center: [7.801678, 9.181589],
               zoom: 6,
@@ -486,7 +486,7 @@ var config = {
             hidden: false,
             title: 'Nigeria’s Farmer-Herder Violence',
             image: '',
-            description: '<strong>Our Insight</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><br /><strong>Our Recommendation</strong>: The federal government should ensure that all states participating in the livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves.<br /><br /> Crisis Group recommends that Nigerian authorities prioritise building capacity for livestock management, and improve communication to better explain the plan to those affected.',
+            description: '<strong>Our Insight</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><br /><strong>What Should be Done</strong>: The federal government should ensure that all states participating in the livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves.Crisis Group recommends that Nigerian authorities prioritise building capacity for livestock management, and improve communication to better explain the plan to those affected.',
             location: {
               center: [4.674479, 10.011739],
               zoom: 5,
@@ -541,7 +541,7 @@ var config = {
             hidden: false,
             title: 'South Sudan – Floods and Displacement',
             image: '',
-            description: 'The compound effects of three consecutive years of historic flooding in South Sudan exacerbated widespread food and livelihood insecurity, displacing over half a million people, driving pastoralists south and fueling violence in the Equatoria region.',
+            description: 'Three consecutive years of historic flooding in South Sudan exacerbated widespread food and economic insecurity, displacing over half a million people, driving pastoralists south and fueling violence in the Equatoria region.',
             location: {
               center: [30.172241, 6.428853],
               zoom: 5.80,
@@ -569,33 +569,6 @@ var config = {
               }
             ],
             onChapterExit: [
-              {
-                  layer: 'nile',
-                  duration: 3000,
-                  opacity: 0
-              }
-            ]
-        },
-        {
-            id: '07B',
-            alignment: 'left',
-            hidden: false,
-            title: 'South Sudan – Floods and Displacement',
-            image: '',
-            description: '<strong>Our Insight</strong>: Crisis Group’s quantitative analysis maps the flood’s impact on displacement pathways, identifying an increased incidence of conflict in areas displaced groups relocated. Paired with survey data, we can map and anticipate migration routes, to help improve anticipatory action and crisis response.<br /><br /> <strong>What Should be Done</strong>: Build flood resilience to improve livelihood security and mechanisms that prevent long-distance displacement in the first place.',
-            location: {
-              center: [30.172241, 6.428853],
-              zoom: 5.80,
-              pitch: 38,
-              bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-
-            ],
-            onChapterExit: [
 
             ]
         },
@@ -619,8 +592,35 @@ var config = {
 
             ],
             onChapterExit: [
-
+              {
+                  layer: 'nile',
+                  duration: 3000,
+                  opacity: 0
+              }
           ]
+        },
+        {
+            id: '07B',
+            alignment: 'left',
+            hidden: false,
+            title: 'South Sudan – Floods and Displacement',
+            image: '',
+            description: '<strong>Our Insight</strong>: Crisis Group’s quantitative analysis maps the flood’s impact on displacement pathways, identifying an increased incidence of conflict where displaced groups relocated. Paired with survey data, we can map and anticipate migration routes, to help improve anticipatory action and crisis response.<br /><br /> <strong>What Should be Done</strong>: Build flood resilience to improve livelihood security.  prevent long-distance displacement in the first place. Act early to prevent conflict when displacement is unavoidable.',
+            location: {
+              center: [30.172241, 6.428853],
+              zoom: 5.80,
+              pitch: 38,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
         },
         {
             id: '08',
@@ -628,7 +628,7 @@ var config = {
             hidden: false,
             title: 'Grand Ethiopian Renaissance Dam – Outlook',
             image: '',
-            description: '<strong>Background</strong>: The continued stalling of negotiations between Ethiopia and northstream Nile Riparian states over fillings and drought management protocols for the Grand Ethiopian Renaissance Dam have the potential to escalate into conflict as climate change becomes more severe, threatening downstream water supplies.<br /><br /><strong>Planned Work</strong>: Future work will detail ways forward from the Grand Ethiopian Renaissance Dam debate to get beyond zero-sum thinking and explore how the project can be the fulcrum of a new era of cooperation.',
+            description: '<strong>Background</strong>: Stalled negotiations between Ethiopia, Egypt and Sudan over fillings and drought management protocols for the Grand Ethiopian Renaissance Dam has the potential to escalate into conflict as climate change worsens, threatening downstream water supplies.<br /><br /><strong>Planned Work</strong>: Future work will detail ways forward to get beyond zero-sum thinking and explore how the project can be the fulcrum of a new era of cooperation.',
             location: {
               center: [35.0912717, 11.2153265],
               zoom: 15.5,
@@ -649,9 +649,9 @@ var config = {
             id: '09',
             alignment: 'left',
             hidden: false,
-            title: 'Kenya’s Outlook',
+            title: 'Kenya – Outlook',
             image: '',
-            description: '<strong>Background</strong>: Severe seasonal droughts and other weather extremes in Kenya’s Laikipia region helped intensify land and resource competition between rival ethnic groups and contributed to inter-communal violence, particularly around election cycles.<br /><br /><strong>Planned Work</strong>: Future work will evaluate to what extent intercommunal conflicts are caused or worsened by climate change and look at avenues for resolution. In northern Kenya, we will research ongoing intercommunal conflicts which are partially driven by drought and depleting pastures and which have serious cross-border dimensions.',
+            description: '<strong>Background</strong>: Severe seasonal droughts and other weather extremes in Kenya’s Laikipia region helped intensify land and resource competition among rival ethnic groups and contributed to inter-communal violence, particularly around election cycles.<br /><br /><strong>Planned Work</strong>: Future work will evaluate to what extent intercommunal conflicts are caused or exacerbated by climate change and look at avenues for resolution. In northern Kenya, we will research ongoing intercommunal conflicts, partially driven by drought and depleting pastures, which have serious implications for cross-border violence.',
             location: {
               center: [37.886659, -0.160837],
               zoom: 5.8,
@@ -700,9 +700,9 @@ var config = {
             id: '10',
             alignment: 'left',
             hidden: false,
-            title: 'Crisis Group’s Insight',
+            title: 'Crisis Group’s Advantage',
             image: 'images/icg_logo.png',
-            description: 'At Crisis Group, the Future of Conflict Programme blends field insights with climate science and state-of-the-art quantitative methods, providing us unmatched insights at a local level - to formulate effective policy recommendations addressing the root causes of conflict.',
+            description: 'Crisis Group blends field research with climate science and state-of-the-art quantitative methods to formulate effective policy recommendations that address the root causes of conflict.',
             location: {
               center: [24.414762, 7.835762],
               zoom: 3.5,
