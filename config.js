@@ -521,6 +521,11 @@ var config = {
                     opacity: 0
                 },
                 {
+                  layer: 'ss-floods',
+                    duration: 3000,
+                    opacity: 0
+                },
+                {
                     layer: 'south-sudan2',
                     duration: 2000,
                     opacity: 0
@@ -562,6 +567,11 @@ var config = {
                   opacity: 1
               },
               {
+                layer: 'ss-floods',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
                   layer: 'south-sudan2',
                   duration: 2000,
                   opacity: 1
@@ -573,7 +583,11 @@ var config = {
               }
             ],
             onChapterExit: [
-
+              {
+                layer: 'ss-floods',
+                  duration: 3000,
+                  opacity: 0
+              },
             ]
         },
         {
@@ -756,6 +770,31 @@ var config = {
                 layer: 'mapbox-satellite',
                   duration: 3000,
                   opacity: 1
+              },
+              {
+                  layer: 'countries_latam_end',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'countries_mekong_end',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'countries_mena_end',
+                  duration: 3000,
+                  opacity: 0
+              },
+              {
+                  layer: 'countries_mena_dis_end',
+                  duration: 3000,
+                  opacity: 0
+              },
+              {
+                  layer: 'india_end',
+                  duration: 3000,
+                  opacity: 0
               }
             ],
             onChapterExit: [
@@ -818,6 +857,31 @@ var config = {
                 layer: 'mapbox-satellite',
                   duration: 3000,
                   opacity: 0
+              },
+              {
+                  layer: 'countries_latam_end',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: 'countries_mekong_end',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: 'countries_mena_end',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
+                  layer: 'countries_mena_dis_end',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
+                  layer: 'india_end',
+                  duration: 3000,
+                  opacity: 1
               }
             ],
             onChapterExit: [
