@@ -55,7 +55,7 @@ var config = {
             id: '00A',
             alignment: 'left',
             hidden: false,
-            title: 'Climate Fragility and Conflict Risk',
+            title: '',
             image: '',
             description: 'These are the most climate-fragile countries in the world today.',
             location: {
@@ -100,7 +100,7 @@ var config = {
               pitch: 36.00,
               bearing: 0
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -146,7 +146,7 @@ var config = {
               pitch: 36.00,
               bearing: 0
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -333,7 +333,7 @@ var config = {
               pitch: 36.00,
               bearing: 0
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -603,7 +603,7 @@ var config = {
               pitch: 38,
               bearing: 0
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -792,6 +792,12 @@ var config = {
                   opacity: 0
               },
               {
+                  layer: 'countries_arabia_end',
+                  duration: 3000,
+                  opacity: 0
+
+              },
+              {
                   layer: 'india_end',
                   duration: 3000,
                   opacity: 0
@@ -877,6 +883,12 @@ var config = {
                   layer: 'countries_mena_dis_end',
                   duration: 3000,
                   opacity: 1
+              },
+              {
+                  layer: 'countries_arabia_end',
+                  duration: 3000,
+                  opacity: 1
+
               },
               {
                   layer: 'india_end',

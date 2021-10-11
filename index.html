@@ -217,6 +217,30 @@
 						margin-right: 5px;
 				}
 
+				.endleg {
+					position: fixed;
+					color: #E4E4E4;
+					background-color: rgba(0, 0, 0, 0.6);
+					box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+					padding: 10px;
+					display: none;
+					z-index: 1;
+					border-radius: 5px;
+					font-family: 'Libre Franklin', sans-serif;
+					font-weight: 400;
+					font-size: small;
+					top: 30px;
+					right: 30px;
+				}
+
+				.endleg div span {
+						display: inline-block;
+						height: 10px;
+						width: 30px;
+						margin-right: 5px;
+				}
+
+
 				/* Fix issue on mobile browser where scroll breaks  */
 				.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
 				.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
@@ -384,7 +408,7 @@
 <h5><strong>Data</strong>: <a href='https://www.wri.org/aqueduct' target='_blank'>WRI</a></h5>
 </div>
 
-<div id='Chapterendlegend' class='legend'>
+<div id='Chapterendlegend' class='endleg'>
 <h4>Current and Projected Work</h4>
 <ul class='legend-ul'>
 <li><div><span style='background-color: #9a0000'></span>Current Crisis Group focus areas</span></div></li>
