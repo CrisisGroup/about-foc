@@ -492,10 +492,10 @@ var config = {
             image: '',
             description: '<strong>Our Analysis</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><br /><strong>What Should be Done</strong>: The federal government should ensure that all states participating in the country’s livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves. Making progress on pilot ranches, donor commitments and staff training before the 2023 election, and ensuing change of administration, may help preserve the Plan’s post-election viability.',
             location: {
-              center: [4.674479, 10.011739],
-              zoom: 5,
-              pitch: 0,
-              bearing: 0
+              center: [7.801678, 9.181589],
+              zoom: 6,
+              pitch: 40.40,
+              bearing: -12.89
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
