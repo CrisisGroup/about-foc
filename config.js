@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckwavem013em114mr6e5tn57l',
+    style: 'mapbox://styles/daltonwb/ckwb6tp2231gp15nwsdiw6kfs',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -580,14 +580,15 @@ var config = {
                   layer: 'nile',
                   duration: 3000,
                   opacity: 1
+              },
+              {
+                layer: 'displacement',
+                  duration: 3000,
+                  opacity: 0
               }
             ],
             onChapterExit: [
-              {
-                layer: 'flood-heatmap',
-                  duration: 3000,
-                  opacity: 0
-              },
+
             ]
         },
         {
@@ -634,10 +635,23 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'displacement',
+                  duration: 3000,
+                  opacity: 1
+              }
             ],
             onChapterExit: [
-
+              {
+                layer: 'displacement',
+                  duration: 3000,
+                  opacity: 0
+              },
+              {
+                layer: 'flood-heatmap',
+                  duration: 3000,
+                  opacity: 0
+              }
             ]
         },
         {
