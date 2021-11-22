@@ -611,11 +611,7 @@ var config = {
 
             ],
             onChapterExit: [
-              {
-                  layer: 'nile',
-                  duration: 3000,
-                  opacity: 0
-              }
+
           ]
         },
         {
@@ -649,6 +645,11 @@ var config = {
               },
               {
                 layer: 'flood-heatmap',
+                  duration: 3000,
+                  opacity: 0
+              },
+              {
+                  layer: 'nile',
                   duration: 3000,
                   opacity: 0
               }

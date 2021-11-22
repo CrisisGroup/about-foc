@@ -379,8 +379,8 @@
 <div id='Chapter6legend' class='legend'>
 <h4>Total fatalities - land-related violent incidents since 2017</h4>
 <ul class='legend-ul'>
-<li><div><span style='background-color: #a71616; border-radius: 100px; width: 10px; height: 10px;'></span>1 Fatality</div></li>
-<li><div><span style='background-color: #a71616; border-radius: 100px; width: 50px; height: 50px;'></span><span style='vertical-align: top; padding-right: 10px;'>1,100 Fatalities</span></div></li>
+<li><div><span style='background-color: #a71616; border: solid 1px #fff; border-radius: 100px; width: 10px; height: 10px;'></span>1 Fatality</div></li>
+<li><div><span style='background-color: #a71616; border: solid 1px #fff; border-radius: 100px; width: 50px; height: 50px;'></span><span style='vertical-align: top; padding-right: 10px;'>1,100 Fatalities</span></div></li>
 </ul>
 <h5><strong>Data</strong>: <a href='https://acleddata.com' target='_blank'>ACLED</a></h5>
 </div>
@@ -397,15 +397,27 @@
 </div>
 
 <div id='Chapter8legend' class='legend'>
-<h4>Average Flood Duration</h4>
+<h4>Relative Flood Intensity</h4>
 <ul class='legend-ul'>
-	<li><div><span style='background-color: #e4e2e2'></span>0 – 30 days</div></li>
-	<li><div><span style='background-color: #dda395'></span>1 – 2 months</div></li>
-	<li><div><span style='background-color: #ba7161'></span>2 – 3 months</div></li>
-	<li><div><span style='background-color: #944032'></span>3 – 4 months</div></li>
-	<li><div><span style='background-color: #6d0303'></span>4 – 5 months</div></li>
+	<li><div>Moderate &nbsp;<span style='background-color: #b1c4dc'></span></div></li>
+	<li><div><span style='background-color: #acd7e6'></span></div></li>
+	<li><div><span style='background-color: #afdfe6'></span></div></li>
+	<li><div><span style='background-color: #85ceec'></span></div></li>
+	<li><div><span style='background-color: #03bfff'></span></div></li>
+	<li><div><span style='background-color: #048ffe'></span></div></li>
+	<li><div><span style='background-color: #3866e1'></span></div></li>
+	<li><div><span style='background-color: #0007fe'></span>Extremely Severe</div></li>
 </ul>
-<h5><strong>Data</strong>: <a href='https://www.wri.org/aqueduct' target='_blank'>WRI</a></h5>
+<h5><strong>Data</strong>: <a href='https://www.wri.org/aqueduct' target='_blank'>NASA</a></h5>
+</div>
+
+<div id='Chapter8blegend' class='legend'>
+<h4>Total displacements since 2020</h4>
+<ul class='legend-ul'>
+<li><div><span style='background-color: #a71616; border: solid 1px #fff; border-radius: 100px; width: 12px; height: 12px;'></span>4,500</div></li>
+<li><div><span style='background-color: #a71616; border: solid 1px #fff; border-radius: 100px; width: 60px; height: 60px;'></span><span style='vertical-align: top; padding-right: 10px;'>23,000</span></div></li>
+</ul>
+<h5><strong>Data</strong>: <a href='https://acleddata.com' target='_blank'>ACLED</a></h5>
 </div>
 
 <div id='Chapterendlegend' class='endleg'>
@@ -656,6 +668,11 @@ map.on("load", function() {
 				 												$("#Chapter8legend").show("slow");
 				 									 } else
 				 												$("#Chapter8legend").hide("fast");
+
+																if (chapterid == "07B" ) {
+					 												$("#Chapter8blegend").show("slow");
+					 									 } else
+					 												$("#Chapter8blegend").hide("fast");
 
 																if (chapterid == "11" ) {
 					 												$("#Chapterendlegend").show("slow");
