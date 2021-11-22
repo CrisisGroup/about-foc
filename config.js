@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckugc88vh0m7917o8k4wtuueo',
+    style: 'mapbox://styles/daltonwb/ckwavem013em114mr6e5tn57l',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -521,7 +521,7 @@ var config = {
                     opacity: 0
                 },
                 {
-                  layer: 'ss-floods',
+                  layer: 'flood-heatmap',
                     duration: 3000,
                     opacity: 0
                 },
@@ -567,7 +567,7 @@ var config = {
                   opacity: 1
               },
               {
-                layer: 'ss-floods',
+                layer: 'flood-heatmap',
                   duration: 3000,
                   opacity: 1
               },
@@ -584,7 +584,7 @@ var config = {
             ],
             onChapterExit: [
               {
-                layer: 'ss-floods',
+                layer: 'flood-heatmap',
                   duration: 3000,
                   opacity: 0
               },
