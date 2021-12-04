@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckwb6tp2231gp15nwsdiw6kfs',
+    style: 'mapbox://styles/daltonwb/ckwrtsknv1eo914pdus3cejpe',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -38,7 +38,12 @@ var config = {
                 opacity: 0
               },
               {
-                layer: 'risk-country-borders',
+                layer: 'risk-country-boundaries',
+                duration: 1000,
+                opacity: 0
+              },
+              {
+                layer: 'risk-country-boundaries2',
                 duration: 1000,
                 opacity: 0
               }
@@ -74,14 +79,24 @@ var config = {
                 opacity: 1
               },
               {
-                layer: 'risk-country-borders',
+                layer: 'risk-country-boundaries',
+                duration: 1000,
+                opacity: 1
+              },
+              {
+                layer: 'risk-country-boundaries2',
                 duration: 1000,
                 opacity: 1
               }
             ],
             onChapterExit: [
               {
-                layer: 'risk-country-borders',
+                layer: 'risk-country-boundaries',
+                duration: 1000,
+                opacity: 0
+              },
+              {
+                layer: 'risk-country-boundaries2',
                 duration: 1000,
                 opacity: 0
               }
@@ -127,7 +142,7 @@ var config = {
                 opacity: 0
               },
               {
-                layer: 'risk-country-borders',
+                layer: 'risk-country-boundaries',
                 duration: 1000,
                 opacity: 0
               }
@@ -672,10 +687,45 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'gerd-2021',
+                  duration: 4000,
+                  opacity: 0
+              }
             ],
             onChapterExit: [
 
+            ]
+        },
+        {
+            id: '08B',
+            alignment: 'left',
+            hidden: false,
+            title: 'Grand Ethiopian Renaissance Dam',
+            image: '',
+            description: 'Here is the dam, now completed, with a filled reservoir.<br /><br />(Image taken November 2021, ESA)',
+            location: {
+              center: [35.093218, 11.183382],
+              zoom: 13.2,
+              pitch: 44.76,
+              bearing: 105.69
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'gerd-2021',
+                  duration: 4000,
+                  opacity: 1
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'gerd-2021',
+                  duration: 4000,
+                  opacity: 0
+              }
             ]
         },
         {
