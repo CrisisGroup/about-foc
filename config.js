@@ -705,10 +705,10 @@ var config = {
             image: '',
             description: 'Here is the dam, now completed, with a filled reservoir.<br /><br />(Image taken November 2021, ESA)',
             location: {
-              center: [35.093218, 11.183382],
-              zoom: 13.2,
-              pitch: 44.76,
-              bearing: 105.69
+              center: [35.097766, 11.199548],
+              zoom: 14.01,
+              pitch: 56.76,
+              bearing: 114.49
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
