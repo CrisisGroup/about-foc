@@ -699,7 +699,7 @@ var config = {
         },
         {
             id: '08B',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Grand Ethiopian Renaissance Dam',
             image: '',
