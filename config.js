@@ -857,12 +857,6 @@ var config = {
                   opacity: 0
               },
               {
-                  layer: 'countries_arabia_end',
-                  duration: 3000,
-                  opacity: 0
-
-              },
-              {
                   layer: 'india_end',
                   duration: 3000,
                   opacity: 0
@@ -948,12 +942,6 @@ var config = {
                   layer: 'countries_mena_dis_end',
                   duration: 3000,
                   opacity: 1
-              },
-              {
-                  layer: 'countries_arabia_end',
-                  duration: 3000,
-                  opacity: 1
-
               },
               {
                   layer: 'india_end',
