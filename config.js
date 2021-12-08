@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckwrtsknv1eo914pdus3cejpe',
+    style: 'mapbox://styles/daltonwb/ckwwbhb1t00q616p039ta169n',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -8,13 +8,13 @@ var config = {
     title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Climate Change and Conflict Risks</h1>',
     subtitle: '',
     byline: '',
-    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Ulrich Eberle<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Support: </strong>Andrew Ciacci and Juan Lozano<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.crisisgroup.org/crisiswatch" target="_blank">CrisisWatch</a>, September, 2021<br /><a href="http://www.esa-landcover-cci.org/?q=node/164" target="_blank">European Space Agency</a>. 2017. Land Cover CCI Product User Guide Version 2.<br /><a href="https://www.gadm.org" target="_blank">GADM</a>. 2012. “Database of Global Administrative Areas”.<br />Luck, M., M. Landis, and F. Gassert. 2015. “Aqueduct Water Stress Projections: Decadal Projections of Water Supply and Demand using CMIP5 GCMs.” <a href="https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=-14.445396942837744&lng=-142.85354599620152&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=2" target="_blank">World Resources Institute</a>.<br />Raleigh, C., A. Linke, H. Hegre and J. Karlsen. 2010. “<a href="https://acleddata.com/data-export-tool/" target="_blank">Introducing ACLED Armed Conflict Location and Event Data</a>.” Journal of Peace Research 47(5):651-660.<br /><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><strong>Note</strong>: “Climate Fragility” refers to the average country-wide exposure to interannual variability, seasonal variability, riverine flood risk, coastal flood risk, drought risk (equal weights). “The most climate-fragile countries” refers to the top 50% of countries. Among those, exposure to conflict and crises is twice as high as it is for the bottom 50% of less climate fragile countries.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Ulrich Eberle<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Support: </strong>Andrew Ciacci and Juan Sebastian Lozano<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://acleddata.com/" target="_blank">ACLED</a>. Raleigh, C., A. Linke, H. Hegre and J. Karlsen. 2010. “Introducing ACLED Armed Conflict Location and Event Data.” Journal of Peace Research. 47(5):651-660.<br /><a href="https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=-14.445396942837744&lng=-142.85354599620152&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=2" target="_blank">Aqueduct</a>. Luck, M., M. Landis, and F. Gassert. 2015. “Aqueduct Water Stress Projections: Decadal Projections of Water Supply and Demand using CMIP5 GCMs.” World Resources Institute.<br /><a href="http://www.esa-landcover-cci.org/?q=node/164" target="_blank">CCI Land Cover</a>. 2017. European Space Agency.<br /><a href="https://www.crisisgroup.org/crisiswatch" target="_blank">CrisisWatch</a>. September, 2021. International Crisis Group.<br /><a href="https://gadm.org/" target="_blank">GADM</a>. 2012. Database of Global Administrative Areas.<br /><a href="https://floodmap.modaps.eosdis.nasa.gov/" target="_blank">NASA</a>. Policelli, F., et al. 2017. "The NASA Global Flood Mapping System." Remote Sensing of Hydrological Extremes. 47-63.<br />REACH South Sudan. 2020. “Population Movement Baseline Report: Movement and Displacement in South Sudan, 1983-2019”.<br /><a href="https://apps.sentinel-hub.com/eo-browser/" target="_blank">USGS</a>. December, 2021. Landsat-8 image of GERD.<br /><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><strong>Note</strong>: “Climate Fragility” refers to the average country-wide exposure to interannual variability, seasonal variability, riverine flood risk, coastal flood risk, drought risk (equal weights). “The most climate-fragile countries” refers to the top 50% of countries. Among those, exposure to conflict and crises is twice as high as it is for the bottom 50% of less climate fragile countries.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
     chapters: [
         {
             id: '00',
             alignment: 'left',
             hidden: false,
-            title: 'The Dangers  of Climate Fragility',
+            title: 'The Dangers of Climate Fragility',
             image: '',
             description: 'Climate fragility afflicts more and more countries in the world today. Flood and drought, as well as changes in multiyear and seasonal variability, have become major risk factors.',
             location: {
@@ -238,7 +238,7 @@ var config = {
             hidden: false,
             title: 'It Is Not Only about Drought',
             image: '',
-            description: 'At the same time, many regions experiencing climate-related insecurity are expected to witness increased water supply, like the Horn of Africa.',
+            description: 'At the same time, many regions experiencing climate-related insecurity are expected to witness increased annual mean water supply, like parts of the Horn of Africa.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -279,7 +279,7 @@ var config = {
             hidden: false,
             title: 'Living with a Rogue Climate',
             image: '',
-            description: 'Increases in water supply often manifest in extreme forms, such as prolonged dry seasons followed by erratic and extreme precipitation. Extreme climatic volatility often induces livelihood insecurity, which can exacerbate conflict risks.',
+            description: 'Changes in water supply often manifest in extreme forms, such as prolonged dry seasons followed by erratic and extreme precipitation. Extreme climatic volatility often induces livelihood insecurity, which can exacerbate conflict risks.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -341,7 +341,7 @@ var config = {
             hidden: false,
             title: 'Regions to Watch',
             image: '',
-            description: 'Among the countries facing climate security risks, Crisis Group identifies the most urgent to be in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa.<br /><br />We focus particularly on Africa, where climatic distress has wreaked havoc in recent years. It has resulted in resource competition, displacement and other security risks.',
+            description: 'Among the countries facing climate security risks, Crisis Group identifies the most urgent to be in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa.<br /><br />We focus particularly on Africa, where climatic distress, among other factors, has wreaked havoc in recent years. It has resulted in resource competition, displacement and other security risks.',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -421,7 +421,7 @@ var config = {
               {
                   layer: 'acled-2021',
                   duration: 3000,
-                  opacity: 1
+                  opacity: .3
               },
               {
                   layer: 'country-labels',
@@ -458,7 +458,7 @@ var config = {
                 {
                   layer: 'acled-2021',
                   duration: 3000,
-                  opacity: 1
+                  opacity: .3
                 },
                 {
                     layer: 'country-labels',
@@ -503,7 +503,7 @@ var config = {
             id: '06C',
             alignment: 'left',
             hidden: false,
-            title: 'Nigeria’s Farmer-Herder Violence',
+            title: 'Analysis from Nigeria',
             image: '',
             description: '<strong>Our Analysis</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><br /><strong>What should be done</strong>: The federal government should ensure that all states participating in the country’s livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves. Making progress on pilot ranches, donor commitments and staff training before the 2023 election, and ensuing change of administration, may help preserve the Plan’s post-election viability.',
             location: {
@@ -563,9 +563,9 @@ var config = {
             id: '07',
             alignment: 'left',
             hidden: false,
-            title: 'South Sudan – Floods and Displacement',
+            title: 'South Sudan: Floods and Displacement',
             image: '',
-            description: 'Three consecutive years of historic flooding in South Sudan exacerbated widespread food and economic insecurity, displacing over half a million people, driving pastoralists south and fueling violence in the Equatoria region.',
+            description: 'Three consecutive years of historic flooding in South Sudan exacerbated widespread food and economic insecurity, displacing over half a million people, driving pastoralists south and exacerbating violence in the Equatoria region.',
             location: {
               center: [30.172241, 6.428853],
               zoom: 5.80,
@@ -635,7 +635,7 @@ var config = {
             hidden: false,
             title: 'Analysis from South Sudan',
             image: '',
-            description: '<strong>Our Insight</strong>: Crisis Group’s quantitative analysis maps the flood’s impact on displacement pathways, identifying an increased incidence of conflict where displaced groups relocated. Paired with survey data, we can map and anticipate migration routes, to help improve anticipatory action and crisis response.<br /><br /> <strong>What Should be Done</strong>: Build flood resilience to improve livelihood security. Prevent long-distance displacement in the first place. Broker negotiations between displaced and host communities to mitigate conflict when displacement is unavoidable. Build new norms, sensitive to existing political dynamics, for displaced-host communities interactions during climate displacements.',
+            description: '<strong>Our Analysis</strong>: Crisis Group’s quantitative analysis maps the flood’s impact on displacement pathways, identifying an increased incidence of conflict where displaced groups relocated. Paired with survey data, we can map and anticipate migration routes, to help improve anticipatory action and crisis response.<br /><br /> <strong>What Should be Done</strong>: Build flood resilience to improve livelihood security. Prevent long-distance displacement in the first place. Broker negotiations between displaced and host communities to mitigate conflict when displacement is unavoidable. Build new norms, sensitive to existing political dynamics, for displaced-host communities interactions during climate displacements. Address climate displacement in peace talks.',
             location: {
               center: [30.172241, 6.428853],
               zoom: 5.80,
@@ -676,7 +676,7 @@ var config = {
             hidden: false,
             title: 'Grand Ethiopian Renaissance Dam',
             image: '',
-            description: '<strong>Background</strong>: Stalled negotiations between Ethiopia, Egypt and Sudan over fillings and drought management protocols for the Grand Ethiopian Renaissance Dam has the potential to escalate into conflict as climate change worsens, threatening downstream water supplies.<br /><br /><strong>Planned Work</strong>: Future work will detail ways forward to get beyond zero-sum thinking and explore how the project can be the fulcrum of a new era of cooperation.<br /><br />(Image taken December 2019)',
+            description: '<strong>Background</strong>: Stalled negotiations between Ethiopia, Egypt and Sudan over the filling and operating rules for the Grand Ethiopian Renaissance Dam has the potential to escalate into conflict as climate change worsens, threatening downstream Nile water supplies. The main obstacles to a deal are disagreements on drought management protocols and a dispute resolution process.<br /><br /><strong>Planned Work</strong>: Future work will explore how the dam could promote cooperation, not just conflict, among states in the region.<br /><br />(Image taken December 2019, prior to the first filling stage, Maxar Technologies)',
             location: {
               center: [35.0912717, 11.2153265],
               zoom: 15.5,
@@ -703,12 +703,12 @@ var config = {
             hidden: false,
             title: 'Grand Ethiopian Renaissance Dam',
             image: '',
-            description: 'Here is the dam, now completed, with a filled reservoir.<br /><br />(Image taken November 2021, ESA)',
+            description: 'Here is the dam’s reservoir after the second filling stage.<br /><br />(Image taken December 2021, USGS, Landsat 8)',
             location: {
-              center: [35.097766, 11.199548],
-              zoom: 14.01,
-              pitch: 56.76,
-              bearing: 114.49
+              center: [35.135007, 11.132634],
+              zoom: 11.27,
+              pitch: 29,
+              bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
