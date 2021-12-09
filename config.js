@@ -612,7 +612,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">“Snakes and people were competing for higher ground”.</h2> – <em>Anonymous herder who fled Twic East county during the 2020 floods.</em></h2>',
+            description: '<h2 class="liftout">“Snakes and people were competing for higher ground”.</h2> – <em>Anonymous herder who fled Twic East county during the 2020 floods</em></h2>',
             location: {
               center: [30.172241, 6.428853],
               zoom: 5.80,
