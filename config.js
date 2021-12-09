@@ -238,7 +238,7 @@ var config = {
             hidden: false,
             title: 'It Is Not Only about Drought',
             image: '',
-            description: 'At the same time, many regions experiencing climate-related insecurity are expected to witness increased annual mean water supply, like parts of the Horn of Africa.',
+            description: 'At the same time, many regions experiencing climate-related insecurity are expected to witness increased water supply, like parts of the Horn of Africa.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -279,7 +279,7 @@ var config = {
             hidden: false,
             title: 'Living with a Rogue Climate',
             image: '',
-            description: 'Changes in water supply often manifest in extreme forms, such as prolonged dry seasons followed by erratic and extreme precipitation. Extreme climatic volatility often induces livelihood insecurity, which can exacerbate conflict risks.',
+            description: 'Changes in water supply often manifest in extreme forms, such as prolonged dry seasons followed by erratic and extreme precipitation. Extreme climatic volatility often induces livelihood insecurity, which can exacerbate conflict.',
             location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
@@ -341,7 +341,7 @@ var config = {
             hidden: false,
             title: 'Regions to Watch',
             image: '',
-            description: 'Among the countries facing climate security risks, Crisis Group identifies the most urgent to be in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa.<br /><br />We focus particularly on Africa, where climatic distress, among other factors, has wreaked havoc in recent years. It has resulted in resource competition, displacement and other security risks.',
+            description: 'Among the countries facing climate security risks, Crisis Group identifies the most urgent to be in the Horn of Africa, Sahel, South East Asia, Central America, and Middle East and North Africa.<br /><br />We focus particularly on Africa, where climatic distress, among other factors, has wreaked havoc in recent years. It has resulted in resource competition and displacement, and heightened other security risks.',
             location: {
               center: [10.818423, -1.069410],
               zoom: 2.2,
@@ -505,7 +505,7 @@ var config = {
             hidden: false,
             title: 'Analysis from Nigeria',
             image: '',
-            description: '<strong>Our Analysis</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><br /><strong>What should be done</strong>: The federal government should ensure that all states participating in the country’s livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves. Making progress on pilot ranches, donor commitments and staff training before the 2023 election, and ensuing change of administration, may help preserve the Plan’s post-election viability.',
+            description: '<strong>Our Analysis</strong>: Crisis Group pairs remotely-sensed land productivity assessments with field insights to unpack farmer-herder conflicts at the local level, showing that disputes are frequently concentrated in Nigeria’s grasslands and along the agricultural fringe used by both groups – especially when land productivity is very low.<br /><br /><strong>What should be done</strong>: The federal government should ensure that all states participating in the country’s livestock transformation plan adopt measures to address climate change’s impact and consider future climate projections in designating locations for ranches and grazing reserves. Making progress on pilot ranches, donor commitments and staff training before the 2023 election, and the ensuing change of administration, may help preserve the Plan’s post-election viability.',
             location: {
               center: [7.801678, 9.181589],
               zoom: 6,
@@ -703,7 +703,7 @@ var config = {
             hidden: false,
             title: 'Grand Ethiopian Renaissance Dam',
             image: '',
-            description: 'Here is the dam’s reservoir after the second filling stage.<br /><br />(Image taken December 2021, USGS, Landsat 8)',
+            description: 'The dam’s reservoir after the second filling stage.<br /><br />(Image taken December 2021, USGS, Landsat 8)',
             location: {
               center: [35.135007, 11.132634],
               zoom: 12.2,
