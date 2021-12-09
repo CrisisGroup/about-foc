@@ -706,7 +706,7 @@ var config = {
             description: 'The dam’s reservoir after the second filling stage.<br /><br />(Image taken December 2021, USGS, Landsat 8)',
             location: {
               center: [35.135007, 11.132634],
-              zoom: 12,
+              zoom: 11.8,
               pitch: 29,
               bearing: 0
             },
