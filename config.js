@@ -213,7 +213,8 @@ var config = {
             hidden: false,
             title: 'A Tale of Extremes',
             image: '',
-            description: 'It is critical for all those with a stake in the region’s stability and prosperity to understand the complex links among climate change, water supply and instability.<br /><br />Parts of the world will suffer a decrease in water supply, frequently associated with multi-year droughts and extreme heat.',       location: {
+            description: 'It is critical for all those with a stake in stability and prosperity to understand the complex links among climate change, water supply and instability.<br /><br />Parts of the world will suffer a decrease in water supply, frequently associated with multi-year droughts and extreme heat.',
+            location: {
               center: [19.133761, 26.268723],
               zoom: 1.85,
               pitch: 0,
